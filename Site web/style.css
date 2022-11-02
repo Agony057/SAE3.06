@@ -1,4 +1,6 @@
 /* #region Import police */
+
+    /* #region Montserrat */
 @font-face {
     font-family: Montserrat;
     src: url(lib/fonts/Montserrat/Montserrat-Black.ttf);
@@ -130,12 +132,28 @@
     src: url(lib/fonts/Montserrat/Montserrat-ThinItalic.ttf);
     font-weight: 100;
     font-style: italic;
-}
+} /* #endregion */
+
+    /* #region Press Start 2P */
+@font-face {
+    font-family: 'Press Start 2P';
+    src: url(lib/fonts/Press_Start_2P/PressStart2P-Regular.ttf);
+} /* #endregion */
+
 /* #endregion Import police */
 
-
-
 /* #region Page d'accueil */
+body{
+    margin:0;
+    /* background-image: url("lib/images/background.jpg");
+    color:white; */
+}
+.logo-header{
+display: inline-block;
+float: left;
+}
+
+
 
 /* #endregion Page d'accueil */
 
@@ -160,5 +178,294 @@
 
 
 /* #region Technologies */
+
+/* #endregion Technologies */
+
+.te-accueil {
+    background: black;
+    background-image: url('lib/images/background.jpg');
+    background-size: auto;
+    color: whitesmoke;
+    font-family: 'Montserrat';
+    padding: 5% 5% 0 5%;
+}
+
+.te-accueil h1 {
+    font-family: "Press Start 2P";
+    font-size: 3em;
+    text-align: center;
+    margin-top: 20%;
+}
+
+.te-accueil a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.te-accueil a img {
+    display: block;
+    margin: 20% auto 0 auto;
+    width: 80vw;
+}
+
+.te-accueil .rouage1 {
+    width: 20vw;
+    transform: rotate(30deg);
+}
+
+.te-accueil .rouage2 {
+    position: relative;
+    bottom: 327px;
+    left: 200px;
+}
+
+.te-accueil .rouage3 {
+    position: relative;
+    bottom: calc(327px * 2);
+    left: -200px;
+}
+
+.te-accueil h1:hover {
+    transform: scale(1.2);
+}
+
+.te-body {
+    background: black;
+    background-image: url('lib/images/background.jpg');
+    background-size: auto;
+    color: whitesmoke;
+    font-family: 'Montserrat';
+    padding: 5% 5% 0 5%;
+}
+
+.te-body a {
+    text-decoration: none;
+    color: #DB323D;
+}
+
+.te-body a:hover {
+    color: #FFFFFF;
+} 
+
+.te-body a:active {
+    color: #FF00F5;
+} 
+
+.te-body p {
+    font-weight: 500;
+    text-align: justify;
+    margin: 0;
+}
+
+.te-footer-links ul {
+    font-family: "Press Start 2P";
+    font-size: 1em;
+    list-style: none;
+    display: flex;
+    flex: 3;
+    justify-content: space-between;
+}
+
+.te-footer-links ul li {
+    flex: 1;
+}
+
+.te-paragraphe-accroche {
+    font-weight: normal;
+    margin: 10% 0 10% 0;
+    font-size: 1.2em;
+} 
+
+.te-body h1 {
+    font-family: 'Press Start 2P';
+    text-align: center;
+    font-weight: 400;
+    font-size: 3em;
+    margin: 5% 0 4% 0;
+    color: #DB323D;
+}
+
+.te-body h2 {
+    font-size: 2em;
+    margin: 10% 0 6% 0;
+    text-align: center;
+}
+
+.te-body h3 {
+    font-weight: bold;
+    text-align: center;
+}
+
+.te-body h5 {
+    margin-top: 10%;
+    padding-left: 2%;
+    font-weight: 700;
+    font-size: 2em;
+}
+
+.te-body ul {
+    list-style: none;
+    padding: 0 0 0 0;
+}
+
+.te-body li {
+    padding-top: 30px;
+    font-weight: 650;
+    color: #DB323D;
+}
+
+.te-figure-gauche {
+    float: left;
+    margin: 0 2% 2% 0;
+}
+
+.te-figure-droite {
+    float: right;
+    margin: 0 0 2% 2%;
+}
+
+.te-body figure {
+    font-size: 0.8em;
+    font-style: italic;
+}
+
+.te-body figure img {
+    height: 25vh;
+}
+
+#te-figure-ecrans {
+    margin: 0 0 6% 0;
+    caption-side: bottom;
+    font-style: italic;
+}
+
+#te-figure-ecrans div {
+    display: flex;
+    justify-content: space-between;
+}
+
+#te-figure-ecrans img {
+    height: 18vw;
+}
+
+#te-div-manettes {
+    display: flex;
+    justify-content: space-between;
+}
+
+#te-div-manettes figure {
+    margin: 4% 0 4% 0;
+}
+
+#te-div-manettes figure img {
+    height: 25vw;
+}
+
+.te-article {
+    background-color: rgba(219, 50, 61, 0.2);
+    border: white 1px solid;
+    border-radius: 40px;
+    padding: 3%;
+    margin: 4% 0 4% 0;
+}
+
+.te-article-stockage {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    vertical-align: middle;
+    flex-wrap: wrap;
+}
+
+.te-article-stockage h3 {
+    font-size: 2em;
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 4%;
+}
+
+.te-article-stockage h2 {
+    font-size: 1.2em;
+    width: 100%;
+    text-align: center;
+    margin: 0 0 4% 0;
+}
+
+#te-article-double-div {
+    display: flex;
+}
+
+.te-article-stockage p {
+    display: inline-block;
+    width: 75%;
+    text-align: justify;
+    vertical-align: middle;
+}
+
+.te-article-stockage div p {
+    display: block;
+    width: initial;
+    text-align: justify;
+}
+
+.te-article-stockage div {
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 20px;
+    padding: 3%;
+    color: black;
+}
+
+.te-article-connexion {
+    min-height: 20vw;
+}
+
+.te-article-connexion .te-droite {
+    float: right;
+    margin: 0 0 2% 2%;
+}
+
+.te-article-connexion .te-gauche {
+    float: left;
+    margin: 0 2% 2% 0;
+}
+
+.te-article-connexion .te-centre {
+    display: block;
+    margin: 4% auto auto auto;
+}
+
+.te-div-double {
+    max-width: 42%;
+}
+
+.te-stockage-img {
+    width: 20%;
+    height: 20%;
+    vertical-align: middle;
+}
+
+.te-audio-img {
+    width: 25%;
+    height: 25%;
+}
+
+.te-connexion-img {
+    height: 20vw;
+}
+
+.te-connexion-logo {
+    width: 13vw;
+}
+
+.te-audio-img-gauche {
+    float: left;
+    margin-right: 2%;
+}
+
+.te-audio-img-droite {
+    float: right;
+    margin-left: 2%;
+}
 
 /* #endregion Technologies */
