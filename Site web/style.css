@@ -143,13 +143,65 @@
 /* #endregion Import police */
 
 /* #region Page d'accueil */
+
 body{
     margin:0;
     /* background-image: url("lib/images/background.jpg");
     color:white; */
 }
-.logo-header{
-display: inline-block;
+
+
+.flex-container  {
+  display: flex;
+  justify-content: flex-start;
+  
+  align-items: center;
+    background: black;
+}
+
+
+
+.logo, .navigation {
+    list-style: none;
+    text-transform: uppercase;
+}
+
+.logo a, .navigation a {
+    text-decoration: none;
+    letter-spacing: .45rem;
+}
+
+.navigation  {
+  display: flex;
+}
+
+.navigation a {
+
+  display: block;
+  padding:0 1em 0 1em;
+  color: white;
+  margin:0;
+
+}
+
+.navigation a:hover {
+    background: #FF00F5;
+}
+
+/* *********** media queries *********** */
+@media all and (max-width: 990px) {
+  .flex-container {
+    flex-direction: column;
+  }
+  
+  .logo {
+  margin: 0;
+}
+  
+  .navigation  {
+    width: 100%;
+    justify-content: space-around;
+  }
 }
 
 
