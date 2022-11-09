@@ -450,6 +450,7 @@ body{
     width: 75%;
     text-align: justify;
     vertical-align: middle;
+    margin-top: 2%;
 }
 
 .te-article-stockage div p {
@@ -486,6 +487,7 @@ body{
 
 .te-div-double {
     max-width: 42%;
+    min-height: calc(100vh - 35vw);
 }
 
 .te-stockage-img {
