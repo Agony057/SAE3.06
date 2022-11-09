@@ -263,7 +263,7 @@ padding-left: 3em;
     font-family: "Press Start 2P";
     font-size: 3em;
     text-align: center;
-    margin-top: 20%;
+    margin-top: 5%;
 }
 
 .te-accueil a {
@@ -271,31 +271,65 @@ padding-left: 3em;
     color: #FFFFFF;
 }
 
-.te-accueil a img {
-    display: block;
+.te-accueil a div {
+    margin-top: 20%;
+}
+
+.te-accueil a:hover h1 {
+    transform: scale(1.5);
+}
+
+.te-accueil a:hover #te-rouages-haut img {
+    transform: translate(0, 0);
+    transform: rotate(18deg);
+}
+
+.te-accueil a:hover #te-rouages-bas img {
+    transform: translate(0, 0);
+    transform: rotate(-18deg);
+}
+
+.te-accueil a div img {
+    width: 200px;
+}
+
+.te-accueil a div #te-rouage1 {
+    position: absolute;
+    left: calc(50vw - 100px - 135px);
+    top: 450px;
+}
+
+.te-accueil a div #te-rouage2 {
+    position: absolute;
+    right: calc(50vw - 100px - 135px);
+    top: 450px;
+}
+
+.te-accueil a div #te-rouage3 {
+    position: absolute;
+    left: calc(50vw - 100px - 142px - 120px - 8px);
+    top: calc(450px + 140px);
+}
+
+.te-accueil a div #te-rouage4 {
+    position: absolute;
+    left: calc(50vw - 100px);
+    top: calc(450px + 140px);
+}
+
+.te-accueil a div #te-rouage5 {
+    position: absolute;
+    right: calc(50vw - 100px - 142px - 120px - 8px);
+    top: calc(450px + 140px);
+}
+
+.te-accueil a div ul li {
+    flex: 18%;
+}
+
+.te-accueil a div ul img {
     margin: 20% auto 0 auto;
-    width: 80vw;
-}
-
-.te-accueil .rouage1 {
-    width: 20vw;
-    transform: rotate(30deg);
-}
-
-.te-accueil .rouage2 {
-    position: relative;
-    bottom: 327px;
-    left: 200px;
-}
-
-.te-accueil .rouage3 {
-    position: relative;
-    bottom: calc(327px * 2);
-    left: -200px;
-}
-
-.te-accueil h1:hover {
-    transform: scale(1.2);
+    width: 17vw;
 }
 
 .te-body {
@@ -470,6 +504,7 @@ padding-left: 3em;
     width: 75%;
     text-align: justify;
     vertical-align: middle;
+    margin-top: 2%;
 }
 
 .te-article-stockage div p {
@@ -506,6 +541,7 @@ padding-left: 3em;
 
 .te-div-double {
     max-width: 42%;
+    min-height: calc(100vh - 35vw);
 }
 
 .te-stockage-img {
