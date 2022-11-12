@@ -1,3 +1,8 @@
+MISE A JOUR 09/11/22
+
+Essayer autant que faire ce peut (pour la prochaine séance S46) :
+Finir les pages HTML !! Ou vraiment avoir beaucoup avancé pour pouvoir commencer le CSS.
+
 # SAE3.06
 point à réaliser:
   première seance (le 27/10):
