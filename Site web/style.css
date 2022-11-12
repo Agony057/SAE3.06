@@ -231,7 +231,43 @@ padding-left: 3em;
 
 
 /* #region Jeux-vidéos */
+#re_insert_title{
+    text-align: center;
+    font-family:"Press Start 2P" ;
+    font-size: x-large;
+    font-weight: 500;
+}
+#re_insert_coin{
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    
+    margin: auto;
+    border: 1px solid #ffffff;
+    box-shadow:0 0 30px #FF00F5;
+    text-align: center;
+    display: table;
+    max-width:50%;
+    min-width:150px;
 
+    padding:1em;
+
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+
+    
+    
+    
+}
+#re_insert_coin a{
+    font-size: xx-large;
+    color:#FFFFFF;
+    text-decoration: none;
+    font-family:"Press Start 2P" ;
+    
+}
 /* #endregion Jeux-vidéos */
 
 
