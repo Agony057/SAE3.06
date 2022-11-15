@@ -300,8 +300,8 @@ padding-left: 3em;
 
 #te-ancre {
     position: fixed;
-    right: 7px;
-    bottom: 50px;
+    right: 0.35%;
+    bottom: 5%;
     width: 4.2vw;
     opacity: 20%;
 }
