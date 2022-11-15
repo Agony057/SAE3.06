@@ -272,15 +272,17 @@ padding-left: 3em;
     width: 80vw;
     margin-left: auto;
     margin-right: auto;
-
-
+    font-family: 'Montserrat';
+    line-height: 2em;
 }
 .re_content #intro{
     margin-top: 2em;
     margin-bottom: 2em;
     font-size:x-large;
+    
 
 }
+
 .re-nav{
     width: 50vw;
     margin-left: auto;
@@ -301,19 +303,34 @@ font-size: x-large;
 .re-nav li a{
 
     font-size: large;
-    color: #FF00F5;
+    color: rgb(255, 0, 245);
     list-style-type: none;
     text-decoration: none;
 }
 .re_content h3{
     color: #FF00F5;
+    font-size: x-large;
+    font-weight: 500;
 }
-.re-img{
-    box-shadow:0 0 500px #FF00F5;
-    z-index: 0;
+.re_content p {
+    font-size: large
+}
 
+.re-img{
+    display: block;
+max-height: 50vh;
+padding: 1em;
+border-top-left-radius: 80px 80px;
+border-bottom-left-radius: 80px 80px;
+}
+.re_content .rayon_rose{
+    border-top-left-radius: 80px 80px;
+    border-bottom-left-radius: 80px 80px;
+    background-image: linear-gradient(to right, rgba(255, 0, 245,0.3), rgba(255, 0, 245,0));
 }
 .re-img-jeu{
+    
+    padding: 1em;
     max-height: 50vh;
 }
 .re_content article{
@@ -330,6 +347,13 @@ font-size: x-large;
     text-align: end;
  display: flex;
  flex-direction: row-reverse;
+}
+.re_content .outro{
+    text-align: center;
+    margin: 4em;
+}
+.re_content .rubrique{
+    margin-top: 4em;
 }
 /* #endregion Jeux-vidéos */
 
