@@ -317,6 +317,7 @@ padding-left: 3em;
     color: whitesmoke;
     font-family: 'Montserrat';
     padding: 0;
+    overflow-x: hidden;
 }
 
 .te-accueil #grand-titre-technologies {
