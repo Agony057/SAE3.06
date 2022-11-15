@@ -349,20 +349,33 @@ font-size: x-large;
 
 /* #region Technologies */
 
+#te-ancre {
+    position: fixed;
+    right: 0.35%;
+    bottom: 5%;
+    width: 4.2vw;
+    opacity: 20%;
+}
+
+#te-ancre:hover {
+    opacity: 100%;
+}
+
 .te-accueil {
     background: black;
     background-image: url('lib/images/background.jpg');
     background-size: auto;
     color: whitesmoke;
     font-family: 'Montserrat';
-    padding: 5% 5% 0 5%;
+    padding: 0;
+    overflow-x: hidden;
 }
 
-.te-accueil h1 {
+.te-accueil #grand-titre-technologies {
     font-family: "Press Start 2P";
     font-size: 3em;
     text-align: center;
-    margin-top: 5%;
+    margin-top: 10%;
 }
 
 .te-accueil a {
@@ -374,18 +387,30 @@ font-size: x-large;
     margin-top: 20%;
 }
 
-.te-accueil a:hover h1 {
+.te-accueil a #grand-titre-technologies {
+    transition: 1500ms ease-out;
+}
+
+.te-accueil a:hover #grand-titre-technologies {
     transform: scale(1.5);
+}
+
+.te-accueil a #te-rouages-haut img {
+    transition: 1500ms ease-in-out;
 }
 
 .te-accueil a:hover #te-rouages-haut img {
     transform: translate(0, 0);
-    transform: rotate(18deg);
+    transform: rotate(360deg);
+}
+
+.te-accueil a #te-rouages-bas img {
+    transition: 1500ms ease-in-out;
 }
 
 .te-accueil a:hover #te-rouages-bas img {
     transform: translate(0, 0);
-    transform: rotate(-18deg);
+    transform: rotate(-360deg);
 }
 
 .te-accueil a div img {
@@ -431,6 +456,11 @@ font-size: x-large;
     width: 17vw;
 }
 
+.te-header {
+    padding: 0;
+    margin: 0;
+}
+
 .te-body {
     background: black;
     background-image: url('lib/images/background.jpg');
@@ -440,10 +470,32 @@ font-size: x-large;
     padding: 5% 5% 0 5%;
 }
 
-.te-body a {
+.te-body .te-footer-links a {
     text-decoration: none;
     color: #DB323D;
 }
+
+.te-body #te-sommaire li {
+    list-style: none;
+    color: #DB323D;
+    padding-top: 30px;
+    font-weight: 650;
+}
+
+.te-body #te-sommaire a {
+    text-decoration: none;
+    list-style: none;
+    color: #DB323D;
+}
+
+
+.te-body #te-sommaire a:hover {
+    color: #FFFFFF;
+} 
+
+.te-body #te-sommaire a:active {
+    color: #FF00F5;
+} 
 
 .te-body a:hover {
     color: #FFFFFF;
@@ -478,7 +530,7 @@ font-size: x-large;
     font-size: 1.2em;
 } 
 
-.te-body h1 {
+.te-body h2 {
     font-family: 'Press Start 2P';
     text-align: center;
     font-weight: 400;
@@ -487,13 +539,13 @@ font-size: x-large;
     color: #DB323D;
 }
 
-.te-body h2 {
+.te-body h3 {
     font-size: 2em;
     margin: 10% 0 6% 0;
     text-align: center;
 }
 
-.te-body h3 {
+.te-body h4 {
     font-weight: bold;
     text-align: center;
 }
@@ -505,12 +557,13 @@ font-size: x-large;
     font-size: 2em;
 }
 
-.te-body ul {
+.te-body .te-footer-links ul {
     list-style: none;
     padding: 0 0 0 0;
 }
 
-.te-body li {
+
+.te-body .te-footer-links li {
     padding-top: 30px;
     font-weight: 650;
     color: #DB323D;
@@ -579,7 +632,7 @@ font-size: x-large;
     flex-wrap: wrap;
 }
 
-.te-article-stockage h3 {
+.te-article-stockage h4 {
     font-size: 2em;
     display: block;
     width: 100%;
@@ -587,7 +640,7 @@ font-size: x-large;
     margin-bottom: 4%;
 }
 
-.te-article-stockage h2 {
+.te-article-stockage h3 {
     font-size: 1.2em;
     width: 100%;
     text-align: center;
