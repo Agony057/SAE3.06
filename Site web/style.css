@@ -278,7 +278,58 @@ padding-left: 3em;
 .re_content #intro{
     margin-top: 2em;
     margin-bottom: 2em;
+    font-size:x-large;
 
+}
+.re-nav{
+    width: 50vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+.re-nav li{
+    padding-top: 1em;
+    font-size: larger;
+    color: #FF00F5;
+    font-weight: 700    ;
+    list-style-type: none;
+    text-decoration: none;
+}
+.re-nav li:first-child{
+color: #FFFFFF;
+font-size: x-large;
+}
+.re-nav li a{
+
+    font-size: large;
+    color: #FF00F5;
+    list-style-type: none;
+    text-decoration: none;
+}
+.re_content h3{
+    color: #FF00F5;
+}
+.re-img{
+    box-shadow:0 0 500px #FF00F5;
+    z-index: 0;
+
+}
+.re-img-jeu{
+    max-height: 50vh;
+}
+.re_content article{
+    display: flex;
+    border-bottom: 2px solid #FF00F5;
+    padding: 2em;
+}
+.re_content .jeu-description{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
+.re_content .jeu-gauche{
+    text-align: end;
+ display: flex;
+ flex-direction: row-reverse;
 }
 /* #endregion Jeux-vidéos */
 
