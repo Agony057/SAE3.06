@@ -150,7 +150,6 @@ body{
     color:white;
 }
 
-
 .flex-container  {
     display: flex;
     align-items: center;
@@ -224,8 +223,90 @@ padding-left: 3em;
   }
 }
 
+footer {
+    font-family: "Press Start 2P";
+    margin-top: 4%;
+    width: 100%;
+    height: 7em;
+    position: relative;
+    bottom: 0px;
+    background: black;
+}
 
+footer img {
+    width: 5%;
+    float: left;
+    position: relative;
+    left: 8vw;
+}
 
+footer ul {
+    list-style: none;
+    text-align: center;
+}
+
+footer ul li {
+    display: inline;
+    margin: 0 3vw 0 3vw;
+}
+
+footer ul li a {
+    text-decoration: underline 0.3em;
+    background: black;
+    text-decoration-color: rgba(255, 255, 255, 0);
+    font-size: 80%;
+    transition: text-decoration-color 500ms, color 500ms;
+}
+
+#footer-li-te {
+    color: #DB323D;
+}
+
+#footer-li-te:hover {
+    color: whitesmoke;
+    text-decoration-color: #DB323D;
+}
+
+#footer-li-re {
+    color: #C200BB;
+}
+
+#footer-li-re:hover {
+    color: whitesmoke;
+    text-decoration-color: #C200BB;
+}
+
+#footer-li-an {
+    color: #00CC66;
+}
+
+#footer-li-an:hover {
+    color: whitesmoke;
+    text-decoration-color: #00CC66;
+}
+
+#footer-li-ci {
+    color: #2ADCF4;
+}
+
+#footer-li-ci:hover {
+    color: whitesmoke;
+    text-decoration-color: #2ADCF4;
+}
+
+footer p {
+    font-size: 80%;
+}
+
+#footer-p1 {
+    text-align: center;
+    margin: 2% auto auto auto;
+}
+
+#footer-p2 {
+    text-align: right;
+    margin-right: 2vw;
+}
 /* #endregion Page d'accueil */
 
 
@@ -272,12 +353,95 @@ padding-left: 3em;
     width: 80vw;
     margin-left: auto;
     margin-right: auto;
-
-
+    font-family: 'Montserrat';
+    line-height: 2em;
 }
 .re_content #intro{
     margin-top: 2em;
     margin-bottom: 2em;
+    font-size:x-large;
+    
+
+}
+
+.re-nav{
+    align-self: center;
+}
+.re-nav li{
+    padding-top: 1em;
+    font-size: larger;
+    color: #FF00F5;
+    font-weight: 700    ;
+    list-style-type: none;
+    text-decoration: none;
+}
+.re-nav li:first-child{
+color: #FFFFFF;
+font-size: x-large;
+}
+.re-nav li a{
+
+    font-size: large;
+    color: rgb(255, 0, 245);
+    list-style-type: none;
+    text-decoration: none;
+}
+.re_content h3{
+    color: #FF00F5;
+    font-size: x-large;
+    font-weight: 500;
+}
+.re_content p {
+    font-size: large
+}
+
+.re-img{
+    display: block;
+max-height: 50vh;
+padding: 1em;
+border-top-left-radius: 80px 80px;
+border-bottom-left-radius: 80px 80px;
+}
+.re_content .rayon_rose{
+    border-top-left-radius: 80px 80px;
+    border-bottom-left-radius: 80px 80px;
+    background-image: linear-gradient(to right, rgba(255, 0, 245,0.3), rgba(255, 0, 245,0));
+}
+.re-img-jeu{
+    
+    padding: 1em;
+    max-height: 50vh;
+}
+.re_content article{
+    display: flex;
+    border-bottom: 2px solid #FF00F5;
+    padding: 2em;
+}
+.re_content .jeu-description{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
+.re_content .jeu-gauche{
+    text-align: end;
+ display: flex;
+ flex-direction: row-reverse;
+}
+.re_content .outro{
+    text-align: center;
+    margin: 4em;
+}
+.re_content .rubrique{
+    margin-top: 4em;
+}
+.re_content .style-nav{
+    display: flex;
+    width: 50vw;
+    
+    margin-left: auto;
+    margin-right: auto;
+}
+.re_content #filtre_violet{
 
 }
 /* #endregion Jeux-vidéos */
@@ -298,20 +462,33 @@ padding-left: 3em;
 
 /* #region Technologies */
 
+#te-ancre {
+    position: fixed;
+    right: 0.35%;
+    bottom: 5%;
+    width: 4.2vw;
+    opacity: 20%;
+}
+
+#te-ancre:hover {
+    opacity: 100%;
+}
+
 .te-accueil {
     background: black;
     background-image: url('lib/images/background.jpg');
     background-size: auto;
     color: whitesmoke;
     font-family: 'Montserrat';
-    padding: 5% 5% 0 5%;
+    padding: 0;
+    overflow-x: hidden;
 }
 
-.te-accueil h1 {
+.te-accueil #grand-titre-technologies {
     font-family: "Press Start 2P";
     font-size: 3em;
     text-align: center;
-    margin-top: 5%;
+    margin-top: 10%;
 }
 
 .te-accueil a {
@@ -323,18 +500,30 @@ padding-left: 3em;
     margin-top: 20%;
 }
 
-.te-accueil a:hover h1 {
+.te-accueil a #grand-titre-technologies {
+    transition: 1500ms ease-out;
+}
+
+.te-accueil a:hover #grand-titre-technologies {
     transform: scale(1.5);
+}
+
+.te-accueil a #te-rouages-haut img {
+    transition: 1500ms ease-in-out;
 }
 
 .te-accueil a:hover #te-rouages-haut img {
     transform: translate(0, 0);
-    transform: rotate(18deg);
+    transform: rotate(360deg);
+}
+
+.te-accueil a #te-rouages-bas img {
+    transition: 1500ms ease-in-out;
 }
 
 .te-accueil a:hover #te-rouages-bas img {
     transform: translate(0, 0);
-    transform: rotate(-18deg);
+    transform: rotate(-360deg);
 }
 
 .te-accueil a div img {
@@ -380,6 +569,11 @@ padding-left: 3em;
     width: 17vw;
 }
 
+.te-header {
+    padding: 0;
+    margin: 0;
+}
+
 .te-body {
     background: black;
     background-image: url('lib/images/background.jpg');
@@ -387,12 +581,35 @@ padding-left: 3em;
     color: whitesmoke;
     font-family: 'Montserrat';
     padding: 5% 5% 0 5%;
+    min-height: calc(80vh - 7em);
 }
 
-.te-body a {
+.te-body .te-footer-links a {
     text-decoration: none;
     color: #DB323D;
 }
+
+.te-body #te-sommaire li {
+    list-style: none;
+    color: #DB323D;
+    padding-top: 30px;
+    font-weight: 650;
+}
+
+.te-body #te-sommaire a {
+    text-decoration: none;
+    list-style: none;
+    color: #DB323D;
+}
+
+
+.te-body #te-sommaire a:hover {
+    color: #FFFFFF;
+} 
+
+.te-body #te-sommaire a:active {
+    color: #FF00F5;
+} 
 
 .te-body a:hover {
     color: #FFFFFF;
@@ -427,7 +644,7 @@ padding-left: 3em;
     font-size: 1.2em;
 } 
 
-.te-body h1 {
+.te-body h2 {
     font-family: 'Press Start 2P';
     text-align: center;
     font-weight: 400;
@@ -436,13 +653,13 @@ padding-left: 3em;
     color: #DB323D;
 }
 
-.te-body h2 {
+.te-body h3 {
     font-size: 2em;
     margin: 10% 0 6% 0;
     text-align: center;
 }
 
-.te-body h3 {
+.te-body h4 {
     font-weight: bold;
     text-align: center;
 }
@@ -454,12 +671,13 @@ padding-left: 3em;
     font-size: 2em;
 }
 
-.te-body ul {
+.te-body .te-footer-links ul {
     list-style: none;
     padding: 0 0 0 0;
 }
 
-.te-body li {
+
+.te-body .te-footer-links li {
     padding-top: 30px;
     font-weight: 650;
     color: #DB323D;
@@ -528,7 +746,7 @@ padding-left: 3em;
     flex-wrap: wrap;
 }
 
-.te-article-stockage h3 {
+.te-article-stockage h4 {
     font-size: 2em;
     display: block;
     width: 100%;
@@ -536,7 +754,7 @@ padding-left: 3em;
     margin-bottom: 4%;
 }
 
-.te-article-stockage h2 {
+.te-article-stockage h3 {
     font-size: 1.2em;
     width: 100%;
     text-align: center;
