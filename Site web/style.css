@@ -458,7 +458,57 @@ border-bottom-left-radius: 80px 80px;
 
 /* #endregion Dessins-animés */
 
+.slideshow
+{
+	margin: 0px auto;
+	width: px;
+	height: px;
+	border: 2px solide #333;
+	background-image: url("../lib/images/Dessin anime");
+	
+	-webkit-animation-name: slide1;
+	-webkit-animation-duration: 9s;
+	-webkit-animation-timing-function: linear;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-direction: normal;
+	
+	-moz-animation-name: slide1;
+	-moz-animation-duration: 9s;
+	-moz-animation-timing-function: linear;
+	-moz-animation-iteration-count: infinite;
+	-moz-animation-direction: normal;
+	
+	
+	animation-name: slide1;
+	animation-duration: 9s;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
+	animation-direction: normal;
+	
+}	
+	
+@-webkit-keyframes slide1{
+	0%{background-image: url("../lib/images/Dessin anime");}
+	25%{background-image: url("../lib/images/Dessin anime");}
+	50%{background-image: url("../lib/images/Dessin anime");}
+	75%{background-image: url("../lib/images/Dessin anime");}
+}
 
+@-moz-keyframes slide1{
+	0%{background-image: url("../lib/images/Dessin anime");}
+	25%{background-image: url("../lib/images/Dessin anime");}
+	50%{background-image: url("../lib/images/Dessin anime");}
+	75%{background-image: url("../lib/images/Dessin anime");}
+	
+}
+
+	
+@keyframes slide1{
+	0%{background-image: url("../lib/images/Dessin anime");}
+	25%{background-image: url("../lib/images/Dessin anime");}
+	50%{background-image: url("../lib/images/Dessin anime");}
+	75%{background-image: url("../lib/images/Dessin anime");}
+}
 
 /* #region Technologies */
 
