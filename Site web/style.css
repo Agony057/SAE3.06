@@ -472,6 +472,20 @@ border-bottom-left-radius: 80px 80px;
 
 
 /* #region Dessins-animés */
+#an-titre{
+font-family:"Press Start 2P";
+font-size: 2em;
+text-align: center;
+margin :auto;
+}
+
+#halobleu{
+width: 139px;
+height: 139PX;
+position: relative;
+top: 45px;
+}
+
 .slideshow
 {
 	margin: 0px auto;
@@ -522,6 +536,15 @@ border-bottom-left-radius: 80px 80px;
 	25%{background-image: url("../lib/images/Dessin anime");}
 	50%{background-image: url("../lib/images/Dessin anime");}
 	75%{background-image: url("../lib/images/Dessin anime");}
+}
+
+.an-text{
+    font-family:'Courier New', Courier, monospace;
+
+}
+
+.an-vignette{
+
 }
 /* #endregion Dessins-animés */
 
