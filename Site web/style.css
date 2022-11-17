@@ -132,13 +132,25 @@
     src: url(lib/fonts/Montserrat/Montserrat-ThinItalic.ttf);
     font-weight: 100;
     font-style: italic;
-} /* #endregion */
+}   /* #endregion */
 
     /* #region Press Start 2P */
 @font-face {
     font-family: 'Press Start 2P';
     src: url(lib/fonts/Press_Start_2P/PressStart2P-Regular.ttf);
-} /* #endregion */
+}   /* #endregion */
+
+    /* #region Russo One */
+@font-face {
+    font-family: 'Russo One';
+    src: url(lib/fonts/Russo_One/RussoOne-Regular.ttf);
+}   /* #endregion */
+
+    /* #region Yellowtail */
+@font-face {
+    font-family: 'Yellowtail';
+    src: url(lib/fonts/Yellowtail/Yellowtail-Regular.ttf);
+}   /* #endregion */
 
 /* #endregion Import police */
 
@@ -148,6 +160,14 @@ body{
     margin:0;
     background-image: url("lib/images/background.jpg");
     color:white;
+}
+
+#accueil-titre {
+    font-family: 'Russo One';
+}
+
+#accueil-noms {
+    font-family: 'Yellowtail';
 }
 
 .flex-container  {
