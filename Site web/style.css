@@ -455,16 +455,13 @@ border-bottom-left-radius: 80px 80px;
 
 
 /* #region Dessins-animés */
-
-/* #endregion Dessins-animés */
-
 .slideshow
 {
 	margin: 0px auto;
 	width: px;
 	height: px;
 	border: 2px solide #333;
-	background-image: url("../lib/images/Dessin anime");
+	background-image: url("../lib/images/Dessin anime/");
 	
 	-webkit-animation-name: slide1;
 	-webkit-animation-duration: 9s;
@@ -509,6 +506,8 @@ border-bottom-left-radius: 80px 80px;
 	50%{background-image: url("../lib/images/Dessin anime");}
 	75%{background-image: url("../lib/images/Dessin anime");}
 }
+/* #endregion Dessins-animés */
+
 
 /* #region Technologies */
 
