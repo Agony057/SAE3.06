@@ -162,12 +162,38 @@ body{
     color:white;
 }
 
+#accueil-body {
+    overflow-x: hidden;
+}
+
 #accueil-titre {
     font-family: 'Russo One';
+    text-align: center;
+    font-size: 3em;
+    background: linear-gradient(180deg, #40E5E5 30%, #FFFFFF 50%, #FF00F5 70%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: #FFFFFF 0.1px;
+    /* text-shadow: 4px 4px 0px black, 4px 4px 15px white; */
+    filter: drop-shadow(4px 4px 0px black) drop-shadow(2px 2px 5px rgba(255, 255, 255, 0.6));
 }
 
 #accueil-noms {
     font-family: 'Yellowtail';
+    font-weight: 500;
+    text-align: center;
+    font-size: 1.6em;
+    transform: rotate(-5deg);
+    text-shadow: 0px 0px 8px #FF00F5, 0px 0px 6px white;
+    margin-bottom: 6%;
+    position: relative;
+    bottom: 30px;
+    transition: 400ms;
+}
+
+#accueil-noms:hover {
+    transform: scale(200%) rotate(-5deg);
+    filter: drop-shadow(0px 0px 15px black);
 }
 
 .flex-container  {
@@ -245,7 +271,7 @@ padding-left: 3em;
 
 footer {
     font-family: "Press Start 2P";
-    margin-top: 4%;
+    margin-top: 10px;
     width: 100%;
     height: 7em;
     position: relative;
@@ -619,16 +645,13 @@ border-bottom-left-radius: 80px 80px;
 
 
 /* #region Dessins-animés */
-
-/* #endregion Dessins-animés */
-
 .slideshow
 {
 	margin: 0px auto;
 	width: px;
 	height: px;
 	border: 2px solide #333;
-	background-image: url("../lib/images/Dessin anime");
+	background-image: url("../lib/images/Dessin anime/");
 	
 	-webkit-animation-name: slide1;
 	-webkit-animation-duration: 9s;
@@ -673,13 +696,15 @@ border-bottom-left-radius: 80px 80px;
 	50%{background-image: url("../lib/images/Dessin anime");}
 	75%{background-image: url("../lib/images/Dessin anime");}
 }
+/* #endregion Dessins-animés */
+
 
 /* #region Technologies */
 
 #te-ancre {
     position: fixed;
     right: 0.35%;
-    bottom: 5%;
+    bottom: 12%;
     width: 4.2vw;
     opacity: 20%;
 }
@@ -696,6 +721,11 @@ border-bottom-left-radius: 80px 80px;
     font-family: 'Montserrat';
     padding: 0;
     overflow-x: hidden;
+}
+
+.te-accueil footer {
+    position: absolute;
+    bottom: 0px;
 }
 
 .te-accueil #grand-titre-technologies {
@@ -795,12 +825,16 @@ border-bottom-left-radius: 80px 80px;
     color: whitesmoke;
     font-family: 'Montserrat';
     padding: 5% 5% 0 5%;
-    min-height: calc(80vh - 7em);
 }
 
 .te-body .te-footer-links a {
     text-decoration: none;
     color: #DB323D;
+}
+
+#te-footer-sommaire {
+    position: absolute;
+    bottom: 0px;
 }
 
 .te-body #te-sommaire li {
