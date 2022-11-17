@@ -337,8 +337,6 @@ footer p {
     max-width:50%;
     min-width:150px;
 
-    
-
     -webkit-border-radius: 2px;
     border-radius: 2px;
 }
@@ -346,8 +344,11 @@ footer p {
     font-size: xx-large;
     color:#FFFFFF;
     text-decoration: none;
-    font-family:"Press Start 2P" ;
-    
+    font-family:"Press Start 2P" ;  
+}
+.re_insert_coin_body footer{
+    position: absolute;
+    bottom: 0;
 }
 .re_content{
     width: 80vw;
@@ -360,8 +361,6 @@ footer p {
     margin-top: 2em;
     margin-bottom: 2em;
     font-size:x-large;
-    
-
 }
 
 .re-nav{
@@ -396,7 +395,7 @@ font-size: x-large;
 }
 
 .re-img{
-    display: block;
+display: block;
 max-height: 50vh;
 padding: 1em;
 border-top-left-radius: 80px 80px;
@@ -441,9 +440,7 @@ border-bottom-left-radius: 80px 80px;
     margin-left: auto;
     margin-right: auto;
 }
-.re_content #filtre_violet{
 
-}
 /* #endregion Jeux-vidéos */
 
 
