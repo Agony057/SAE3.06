@@ -645,13 +645,27 @@ border-bottom-left-radius: 80px 80px;
 
 
 /* #region Dessins-animés */
+#an-titre{
+font-family:"Press Start 2P";
+font-size: 2em;
+text-align: center;
+margin :auto;
+}
+
+#halobleu{
+width: 139px;
+height: 139PX;
+position: relative;
+top: 45px;
+}
+
 .slideshow
 {
 	margin: 0px auto;
 	width: px;
 	height: px;
 	border: 2px solide #333;
-	background-image: url("../lib/images/Dessin anime/");
+	background-image: url("../lib/images/Dessin anime/Mickey.gif");
 	
 	-webkit-animation-name: slide1;
 	-webkit-animation-duration: 9s;
@@ -675,9 +689,9 @@ border-bottom-left-radius: 80px 80px;
 }	
 	
 @-webkit-keyframes slide1{
-	0%{background-image: url("../lib/images/Dessin anime");}
-	25%{background-image: url("../lib/images/Dessin anime");}
-	50%{background-image: url("../lib/images/Dessin anime");}
+	0%{background-image: url("../lib/images/Dessin anime/Mickey.gif");}
+	25%{background-image: url("../lib/images/Dessin anime/Sailor moon guardian.gif");}
+	50%{background-image: url("../lib/images/Dessin anime/");}
 	75%{background-image: url("../lib/images/Dessin anime");}
 }
 
@@ -695,6 +709,15 @@ border-bottom-left-radius: 80px 80px;
 	25%{background-image: url("../lib/images/Dessin anime");}
 	50%{background-image: url("../lib/images/Dessin anime");}
 	75%{background-image: url("../lib/images/Dessin anime");}
+}
+
+.an-text{
+    font-family:'Courier New', Courier, monospace;
+
+}
+
+.an-vignette{
+
 }
 /* #endregion Dessins-animés */
 
@@ -745,29 +768,39 @@ border-bottom-left-radius: 80px 80px;
 }
 
 .te-accueil a #grand-titre-technologies {
-    transition: 1500ms ease-out;
+    transition: 600ms ease-out;
 }
 
 .te-accueil a:hover #grand-titre-technologies {
     transform: scale(1.5);
 }
 
-.te-accueil a #te-rouages-haut img {
-    transition: 1500ms ease-in-out;
-}
-
 .te-accueil a:hover #te-rouages-haut img {
-    transform: translate(0, 0);
-    transform: rotate(360deg);
+    animation-name: rotate;
+    animation-duration: 1300ms;
+    animation-iteration-count: infinite;
+    animation-direction: reverse;
+    animation-timing-function: linear;
 }
 
-.te-accueil a #te-rouages-bas img {
-    transition: 1500ms ease-in-out;
+@keyframes rotate {
+    from {
+        transform: translate(0, 0);
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: translate(0, 0);
+        transform: rotate(-360deg);
+    }
 }
 
 .te-accueil a:hover #te-rouages-bas img {
-    transform: translate(0, 0);
-    transform: rotate(-360deg);
+    animation-name: rotate;
+    animation-duration: 1300ms;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-timing-function: linear;
 }
 
 .te-accueil a div img {
