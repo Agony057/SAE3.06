@@ -492,7 +492,7 @@ top: 45px;
 	width: px;
 	height: px;
 	border: 2px solide #333;
-	background-image: url("../lib/images/Dessin anime/");
+	background-image: url("../lib/images/Dessin anime/Mickey.gif");
 	
 	-webkit-animation-name: slide1;
 	-webkit-animation-duration: 9s;
@@ -516,9 +516,9 @@ top: 45px;
 }	
 	
 @-webkit-keyframes slide1{
-	0%{background-image: url("../lib/images/Dessin anime");}
-	25%{background-image: url("../lib/images/Dessin anime");}
-	50%{background-image: url("../lib/images/Dessin anime");}
+	0%{background-image: url("../lib/images/Dessin anime/Mickey.gif");}
+	25%{background-image: url("../lib/images/Dessin anime/Sailor moon guardian.gif");}
+	50%{background-image: url("../lib/images/Dessin anime/");}
 	75%{background-image: url("../lib/images/Dessin anime");}
 }
 
