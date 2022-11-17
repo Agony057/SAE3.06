@@ -439,7 +439,7 @@ footer p {
     border-radius: 8px;
     background-image: linear-gradient(
       var(--rotate)
-      , #e31962, #f15e5d 43%, #DB323D);
+      , #d1004d, #fd8989 43%, #DB323D);
       position: absolute;
       z-index: -1;
       top: -2%;
