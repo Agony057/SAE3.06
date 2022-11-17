@@ -162,12 +162,38 @@ body{
     color:white;
 }
 
+#accueil-body {
+    overflow-x: hidden;
+}
+
 #accueil-titre {
     font-family: 'Russo One';
+    text-align: center;
+    font-size: 3em;
+    background: linear-gradient(180deg, #40E5E5 30%, #FFFFFF 50%, #FF00F5 70%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: #FFFFFF 0.1px;
+    /* text-shadow: 4px 4px 0px black, 4px 4px 15px white; */
+    filter: drop-shadow(4px 4px 0px black) drop-shadow(2px 2px 5px rgba(255, 255, 255, 0.6));
 }
 
 #accueil-noms {
     font-family: 'Yellowtail';
+    font-weight: 500;
+    text-align: center;
+    font-size: 1.6em;
+    transform: rotate(-5deg);
+    text-shadow: 0px 0px 8px #FF00F5, 0px 0px 6px white;
+    margin-bottom: 6%;
+    position: relative;
+    bottom: 30px;
+    transition: 400ms;
+}
+
+#accueil-noms:hover {
+    transform: scale(200%) rotate(-5deg);
+    filter: drop-shadow(0px 0px 15px black);
 }
 
 .flex-container  {
@@ -245,7 +271,7 @@ padding-left: 3em;
 
 footer {
     font-family: "Press Start 2P";
-    margin-top: 4%;
+    margin-top: 10px;
     width: 100%;
     height: 7em;
     position: relative;
@@ -327,6 +353,153 @@ footer p {
     text-align: right;
     margin-right: 2vw;
 }
+.card_container1{  
+        margin-top: 4em;
+    margin-bottom: 4em;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    
+    box-sizing: border-box;
+    justify-content: center;
+
+      }
+      .card_container2{
+        margin-top: 4em;
+    margin-bottom: 4em;
+      
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+
+        box-sizing: border-box;
+        justify-content: center;
+      }
+.first_line{
+
+}
+.seconde_line{
+
+}
+@property --rotate {
+    syntax: "<angle>";
+    initial-value: 132deg;
+    inherits: false;
+  }
+  
+  :root {
+    --vignette-height: 50vh;
+    --vignette-width: calc(var(--vignette-height));
+  }
+  .Technologies{
+    background-color: rgb(0, 0, 0);
+  }
+  .Retrogaming{
+    background-color: #C200BB;
+  }
+  .Dessin{
+    background-color: #00CC66;
+}
+.Cinema{
+    background-color:#2ADCF4 ;
+}
+.vignette {
+    
+    width: var(--vignette-width);
+    height: var(--vignette-height);
+    padding: 3px;
+    position: relative;
+    border-radius: 6px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    font-size: 1.5em;
+    color: rgb(88 199 250 / 0%);
+    cursor: pointer;
+    font-family: cursive;
+    margin-left: 2em;
+    margin-right: 2em;
+  }
+  .vignette:hover {
+    color: rgb(88 199 250 / 100%);
+    transition: color 1s;
+  }
+  .Technologies:hover:before, .Technologies:hover:after {
+    
+  }
+  .Technologies:hover{
+    background-color: #db323d53;
+    background-color: #000000b2;
+  }
+  .Technologies::before {
+    content: "";
+    width: 104%;
+    height: 104%;
+    border-radius: 8px;
+    background-image: linear-gradient(
+      var(--rotate)
+      , #e31962, #f15e5d 43%, #DB323D);
+      position: absolute;
+      z-index: -1;
+      top: -2%;
+      left: -2%;
+      animation: spin 2.5s linear infinite;
+  }
+  .Retrogaming::before {
+    content: "";
+    width: 102%;
+    height: 102%;
+    border-radius: 8px;
+    background-image: linear-gradient(
+      var(--rotate)
+      , #5ddcff, #3c67e3 43%, #4e00c2);
+      position: absolute;
+      z-index: -1;
+      top: -1%;
+      left: -1%;
+      animation: spin 2.5s linear infinite;
+  }
+  .Dessin::before {
+    content: "";
+    width: 102%;
+    height: 102%;
+    border-radius: 8px;
+    background-image: linear-gradient(
+      var(--rotate)
+      , #5ddcff, #3c67e3 43%, #4e00c2);
+      position: absolute;
+      z-index: -1;
+      top: -1%;
+      left: -1%;
+      animation: spin 2.5s linear infinite;
+  }
+  .Cinema::before {
+    content: "";
+    width: 102%;
+    height: 102%;
+    border-radius: 8px;
+    background-image: linear-gradient(
+      var(--rotate)
+      , #5ddcff, #3c67e3 43%, #4e00c2);
+      position: absolute;
+      z-index: -1;
+      top: -1%;
+      left: -1%;
+      animation: spin 2.5s linear infinite;
+  }
+  
+  @keyframes spin {
+    0% {
+      --rotate: 0deg;
+    }
+    100% {
+      --rotate: 360deg;
+    }
+  }
+
+
+
 /* #endregion Page d'accueil */
 
 
@@ -554,7 +727,7 @@ top: 45px;
 #te-ancre {
     position: fixed;
     right: 0.35%;
-    bottom: 5%;
+    bottom: 12%;
     width: 4.2vw;
     opacity: 20%;
 }
@@ -571,6 +744,11 @@ top: 45px;
     font-family: 'Montserrat';
     padding: 0;
     overflow-x: hidden;
+}
+
+.te-accueil footer {
+    position: absolute;
+    bottom: 0px;
 }
 
 .te-accueil #grand-titre-technologies {
@@ -590,29 +768,39 @@ top: 45px;
 }
 
 .te-accueil a #grand-titre-technologies {
-    transition: 1500ms ease-out;
+    transition: 600ms ease-out;
 }
 
 .te-accueil a:hover #grand-titre-technologies {
     transform: scale(1.5);
 }
 
-.te-accueil a #te-rouages-haut img {
-    transition: 1500ms ease-in-out;
-}
-
 .te-accueil a:hover #te-rouages-haut img {
-    transform: translate(0, 0);
-    transform: rotate(360deg);
+    animation-name: rotate;
+    animation-duration: 1300ms;
+    animation-iteration-count: infinite;
+    animation-direction: reverse;
+    animation-timing-function: linear;
 }
 
-.te-accueil a #te-rouages-bas img {
-    transition: 1500ms ease-in-out;
+@keyframes rotate {
+    from {
+        transform: translate(0, 0);
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: translate(0, 0);
+        transform: rotate(-360deg);
+    }
 }
 
 .te-accueil a:hover #te-rouages-bas img {
-    transform: translate(0, 0);
-    transform: rotate(-360deg);
+    animation-name: rotate;
+    animation-duration: 1300ms;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-timing-function: linear;
 }
 
 .te-accueil a div img {
@@ -670,12 +858,16 @@ top: 45px;
     color: whitesmoke;
     font-family: 'Montserrat';
     padding: 5% 5% 0 5%;
-    min-height: calc(80vh - 7em);
 }
 
 .te-body .te-footer-links a {
     text-decoration: none;
     color: #DB323D;
+}
+
+#te-footer-sommaire {
+    position: absolute;
+    bottom: 0px;
 }
 
 .te-body #te-sommaire li {
