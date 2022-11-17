@@ -576,6 +576,11 @@ border-bottom-left-radius: 80px 80px;
     overflow-x: hidden;
 }
 
+.te-accueil footer {
+    position: absolute;
+    bottom: 0px;
+}
+
 .te-accueil #grand-titre-technologies {
     font-family: "Press Start 2P";
     font-size: 3em;
