@@ -662,8 +662,8 @@ top: 45px;
 .slideshow
 {
 	margin: 0px auto;
-	width: px;
-	height: px;
+	width: 300px;
+	height: 180px;
 	border: 2px solide #333;
 	background-image: url("../lib/images/Dessin anime/Mickey.gif");
 	
