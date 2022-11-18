@@ -132,13 +132,25 @@
     src: url(lib/fonts/Montserrat/Montserrat-ThinItalic.ttf);
     font-weight: 100;
     font-style: italic;
-} /* #endregion */
+}   /* #endregion */
 
     /* #region Press Start 2P */
 @font-face {
     font-family: 'Press Start 2P';
     src: url(lib/fonts/Press_Start_2P/PressStart2P-Regular.ttf);
-} /* #endregion */
+}   /* #endregion */
+
+    /* #region Russo One */
+@font-face {
+    font-family: 'Russo One';
+    src: url(lib/fonts/Russo_One/RussoOne-Regular.ttf);
+}   /* #endregion */
+
+    /* #region Yellowtail */
+@font-face {
+    font-family: 'Yellowtail';
+    src: url(lib/fonts/Yellowtail/Yellowtail-Regular.ttf);
+}   /* #endregion */
 
 /* #endregion Import police */
 
@@ -148,6 +160,40 @@ body{
     margin:0;
     background-image: url("lib/images/background.jpg");
     color:white;
+}
+
+#accueil-body {
+    overflow-x: hidden;
+}
+
+#accueil-titre {
+    font-family: 'Russo One';
+    text-align: center;
+    font-size: 3em;
+    background: linear-gradient(180deg, #40E5E5 30%, #FFFFFF 50%, #FF00F5 70%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: #FFFFFF 0.1px;
+    /* text-shadow: 4px 4px 0px black, 4px 4px 15px white; */
+    filter: drop-shadow(4px 4px 0px black) drop-shadow(2px 2px 5px rgba(255, 255, 255, 0.6));
+}
+
+#accueil-noms {
+    font-family: 'Yellowtail';
+    font-weight: 500;
+    text-align: center;
+    font-size: 1.6em;
+    transform: rotate(-5deg);
+    text-shadow: 0px 0px 8px #FF00F5, 0px 0px 6px white;
+    margin-bottom: 6%;
+    position: relative;
+    bottom: 30px;
+    transition: 400ms;
+}
+
+#accueil-noms:hover {
+    transform: scale(200%) rotate(-5deg);
+    filter: drop-shadow(0px 0px 15px black);
 }
 
 .flex-container  {
@@ -225,7 +271,7 @@ padding-left: 3em;
 
 footer {
     font-family: "Press Start 2P";
-    margin-top: 4%;
+    margin-top: 10px;
     width: 100%;
     height: 7em;
     position: relative;
@@ -307,6 +353,153 @@ footer p {
     text-align: right;
     margin-right: 2vw;
 }
+.card_container1{  
+        margin-top: 4em;
+    margin-bottom: 4em;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    
+    box-sizing: border-box;
+    justify-content: center;
+
+      }
+      .card_container2{
+        margin-top: 4em;
+    margin-bottom: 4em;
+      
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+
+        box-sizing: border-box;
+        justify-content: center;
+      }
+.first_line{
+
+}
+.seconde_line{
+
+}
+@property --rotate {
+    syntax: "<angle>";
+    initial-value: 132deg;
+    inherits: false;
+  }
+  
+  :root {
+    --vignette-height: 50vh;
+    --vignette-width: calc(var(--vignette-height));
+  }
+  .Technologies{
+    background-color: rgb(0, 0, 0);
+  }
+  .Retrogaming{
+    background-color: #C200BB;
+  }
+  .Dessin{
+    background-color: #00CC66;
+}
+.Cinema{
+    background-color:#2ADCF4 ;
+}
+.vignette {
+    
+    width: var(--vignette-width);
+    height: var(--vignette-height);
+    padding: 3px;
+    position: relative;
+    border-radius: 6px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    font-size: 1.5em;
+    color: rgb(88 199 250 / 0%);
+    cursor: pointer;
+    font-family: cursive;
+    margin-left: 2em;
+    margin-right: 2em;
+  }
+  .vignette:hover {
+    color: rgb(88 199 250 / 100%);
+    transition: color 1s;
+  }
+  .Technologies:hover:before, .Technologies:hover:after {
+    
+  }
+  .Technologies:hover{
+    background-color: #db323d53;
+    background-color: #000000b2;
+  }
+  .Technologies::before {
+    content: "";
+    width: 104%;
+    height: 104%;
+    border-radius: 8px;
+    background-image: linear-gradient(
+      var(--rotate)
+      , #d1004d, #fd8989 43%, #DB323D);
+      position: absolute;
+      z-index: -1;
+      top: -2%;
+      left: -2%;
+      animation: spin 2.5s linear infinite;
+  }
+  .Retrogaming::before {
+    content: "";
+    width: 102%;
+    height: 102%;
+    border-radius: 8px;
+    background-image: linear-gradient(
+      var(--rotate)
+      , #5ddcff, #3c67e3 43%, #4e00c2);
+      position: absolute;
+      z-index: -1;
+      top: -1%;
+      left: -1%;
+      animation: spin 2.5s linear infinite;
+  }
+  .Dessin::before {
+    content: "";
+    width: 102%;
+    height: 102%;
+    border-radius: 8px;
+    background-image: linear-gradient(
+      var(--rotate)
+      , #5ddcff, #3c67e3 43%, #4e00c2);
+      position: absolute;
+      z-index: -1;
+      top: -1%;
+      left: -1%;
+      animation: spin 2.5s linear infinite;
+  }
+  .Cinema::before {
+    content: "";
+    width: 102%;
+    height: 102%;
+    border-radius: 8px;
+    background-image: linear-gradient(
+      var(--rotate)
+      , #5ddcff, #3c67e3 43%, #4e00c2);
+      position: absolute;
+      z-index: -1;
+      top: -1%;
+      left: -1%;
+      animation: spin 2.5s linear infinite;
+  }
+  
+  @keyframes spin {
+    0% {
+      --rotate: 0deg;
+    }
+    100% {
+      --rotate: 360deg;
+    }
+  }
+
+
+
 /* #endregion Page d'accueil */
 
 
@@ -337,8 +530,6 @@ footer p {
     max-width:50%;
     min-width:150px;
 
-    
-
     -webkit-border-radius: 2px;
     border-radius: 2px;
 }
@@ -346,8 +537,11 @@ footer p {
     font-size: xx-large;
     color:#FFFFFF;
     text-decoration: none;
-    font-family:"Press Start 2P" ;
-    
+    font-family:"Press Start 2P" ;  
+}
+.re_insert_coin_body footer{
+    position: absolute;
+    bottom: 0;
 }
 .re_content{
     width: 80vw;
@@ -360,8 +554,6 @@ footer p {
     margin-top: 2em;
     margin-bottom: 2em;
     font-size:x-large;
-    
-
 }
 
 .re-nav{
@@ -396,7 +588,7 @@ font-size: x-large;
 }
 
 .re-img{
-    display: block;
+display: block;
 max-height: 50vh;
 padding: 1em;
 border-top-left-radius: 80px 80px;
@@ -441,9 +633,7 @@ border-bottom-left-radius: 80px 80px;
     margin-left: auto;
     margin-right: auto;
 }
-.re_content #filtre_violet{
 
-}
 /* #endregion Jeux-vidéos */
 
 
@@ -455,16 +645,27 @@ border-bottom-left-radius: 80px 80px;
 
 
 /* #region Dessins-animés */
+#an-titre{
+font-family:"Press Start 2P";
+font-size: 2em;
+text-align: center;
+margin :auto;
+}
 
-/* #endregion Dessins-animés */
+#halobleu{
+width: 139px;
+height: 139PX;
+position: relative;
+top: 45px;
+}
 
 .slideshow
 {
 	margin: 0px auto;
-	width: px;
-	height: px;
+	width: 300px;
+	height: 180px;
 	border: 2px solide #333;
-	background-image: url("../lib/images/Dessin anime");
+	background-image: url("../lib/images/Dessin anime/Mickey.gif");
 	
 	-webkit-animation-name: slide1;
 	-webkit-animation-duration: 9s;
@@ -488,9 +689,9 @@ border-bottom-left-radius: 80px 80px;
 }	
 	
 @-webkit-keyframes slide1{
-	0%{background-image: url("../lib/images/Dessin anime");}
-	25%{background-image: url("../lib/images/Dessin anime");}
-	50%{background-image: url("../lib/images/Dessin anime");}
+	0%{background-image: url("../lib/images/Dessin anime/Mickey.gif");}
+	25%{background-image: url("../lib/images/Dessin anime/Sailor moon guardian.gif");}
+	50%{background-image: url("../lib/images/Dessin anime/");}
 	75%{background-image: url("../lib/images/Dessin anime");}
 }
 
@@ -510,12 +711,23 @@ border-bottom-left-radius: 80px 80px;
 	75%{background-image: url("../lib/images/Dessin anime");}
 }
 
+.an-text{
+    font-family:'Courier New', Courier, monospace;
+
+}
+
+.an-vignette{
+
+}
+/* #endregion Dessins-animés */
+
+
 /* #region Technologies */
 
 #te-ancre {
     position: fixed;
     right: 0.35%;
-    bottom: 5%;
+    bottom: 12%;
     width: 4.2vw;
     opacity: 20%;
 }
@@ -532,6 +744,11 @@ border-bottom-left-radius: 80px 80px;
     font-family: 'Montserrat';
     padding: 0;
     overflow-x: hidden;
+}
+
+.te-accueil footer {
+    position: absolute;
+    bottom: 0px;
 }
 
 .te-accueil #grand-titre-technologies {
@@ -551,29 +768,39 @@ border-bottom-left-radius: 80px 80px;
 }
 
 .te-accueil a #grand-titre-technologies {
-    transition: 1500ms ease-out;
+    transition: 600ms ease-out;
 }
 
 .te-accueil a:hover #grand-titre-technologies {
     transform: scale(1.5);
 }
 
-.te-accueil a #te-rouages-haut img {
-    transition: 1500ms ease-in-out;
-}
-
 .te-accueil a:hover #te-rouages-haut img {
-    transform: translate(0, 0);
-    transform: rotate(360deg);
+    animation-name: rotate;
+    animation-duration: 1300ms;
+    animation-iteration-count: infinite;
+    animation-direction: reverse;
+    animation-timing-function: linear;
 }
 
-.te-accueil a #te-rouages-bas img {
-    transition: 1500ms ease-in-out;
+@keyframes rotate {
+    from {
+        transform: translate(0, 0);
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: translate(0, 0);
+        transform: rotate(-360deg);
+    }
 }
 
 .te-accueil a:hover #te-rouages-bas img {
-    transform: translate(0, 0);
-    transform: rotate(-360deg);
+    animation-name: rotate;
+    animation-duration: 1300ms;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-timing-function: linear;
 }
 
 .te-accueil a div img {
@@ -631,12 +858,16 @@ border-bottom-left-radius: 80px 80px;
     color: whitesmoke;
     font-family: 'Montserrat';
     padding: 5% 5% 0 5%;
-    min-height: calc(80vh - 7em);
 }
 
 .te-body .te-footer-links a {
     text-decoration: none;
     color: #DB323D;
+}
+
+#te-footer-sommaire {
+    position: absolute;
+    bottom: 0px;
 }
 
 .te-body #te-sommaire li {
