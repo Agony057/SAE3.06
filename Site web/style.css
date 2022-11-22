@@ -765,6 +765,10 @@ border-bottom-left-radius: 80px 80px;
     font-size: x-large;
 }
 
+.ci_film_année_impair>li>a:hover, .ci_film_année_pair>li>a:hover{
+    color: whitesmoke;
+    text-shadow: 2px 2px 10px #2ADCF4 ;
+}
 
 .ci_annee_cible {
     text-align: center;
@@ -851,7 +855,7 @@ flex :auto;
 .an-vignette{
 color: white;
 background: rgba(255, 182, 193, 0.5);
-margin: ;
+margin: 1%;
 }
 
 .slideshow
