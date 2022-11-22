@@ -254,7 +254,7 @@ padding-left: 3em;
 
 
 /* *********** media queries *********** */
-@media all and (max-width: 990px) {
+@media all and (max-width: 990px ) {
   .flex-container {
     flex-direction: column;
   }
