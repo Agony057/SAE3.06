@@ -279,6 +279,11 @@ footer {
     background: black;
 }
 
+#te-footer-sommaire {
+    position: absolute;
+    bottom: 0px;
+}
+
 footer img {
     width: 5%;
     float: left;
@@ -780,9 +785,11 @@ flex-basis: auto;
 .te-accueil {
     background: black;
     background-image: url('lib/images/background.jpg');
+    max-height: 1080px;
     background-size: auto;
     color: whitesmoke;
     font-family: 'Montserrat';
+    margin: 0;
     padding: 0;
     overflow-x: hidden;
 }
@@ -856,7 +863,7 @@ flex-basis: auto;
 
 .te-accueil a div #te-rouage2 {
     position: absolute;
-    right: calc(50vw - 100px - 135px);
+    left: calc(50vw - 100px + 135px);
     top: 450px;
 }
 
@@ -874,12 +881,12 @@ flex-basis: auto;
 
 .te-accueil a div #te-rouage5 {
     position: absolute;
-    right: calc(50vw - 100px - 142px - 120px - 8px);
+    left: calc(50vw - 100px + 142px + 120px + 8px);
     top: calc(450px + 140px);
 }
 #footer_en_bas{
     position: absolute;
-    top:130%;
+    bottom:0px;
 }
 
 .te-accueil a div ul li {
