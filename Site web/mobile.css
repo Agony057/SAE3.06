@@ -159,7 +159,61 @@ body{
     margin:0;
     background-image: url("lib/images/background.jpg");
     color:white;
+    overflow-x: hidden;
 }
+.flex-container  {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: black;
+    border-bottom:1px solid #ffffff ;
+    box-shadow:0 2px 20px #FF00F5, inset 0 -2px  #FF00F5;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo h1{
+    color:white;
+    font-family:"Press Start 2P" ;
+    font-size: medium;
+    font-weight: 500;
+}
+.logo a, .navigation a {
+    text-decoration: none;
+    font-family:"Press Start 2P" ;
+    font-size:xx-small;
+    /* letter-spacing: .45rem; */
+
+}
+.logo img{
+height: 5vh;
+padding-left: 2vw;
+}
+.div-nav{
+  
+    /* a changer les paddings, trouver soluc  */
+    margin: 0;
+    padding-top:auto;
+}
+
+.navigation  {
+    list-style: none;
+  display: flex;
+  margin: 0;
+  padding-right:3em ;
+}
+
+.navigation a {
+  display: block;
+  padding:2em 1em 2em 1em;
+  color: white;
+  margin:0;
+  
+  
+
+}
+
 footer {
     font-family: "Press Start 2P";
 
@@ -172,6 +226,7 @@ footer {
     border-top:1px solid #ffffff ;
     box-shadow:0 2px 20px #FF00F5, inset 0 1px  #FF00F5;
 }
+
 
 footer img {
     width: 5%;
@@ -260,6 +315,7 @@ footer p {
     font-weight: 500;
 }
 #re_insert_coin{
+
     position: absolute;
     top:0;
     bottom: 0;
