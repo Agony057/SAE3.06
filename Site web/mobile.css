@@ -160,6 +160,94 @@ body{
     background-image: url("lib/images/background.jpg");
     color:white;
 }
+footer {
+    font-family: "Press Start 2P";
+
+    width: 100%;
+    height: auto;
+    position: relative;
+    bottom: 0px;
+    background: black;
+    position: fixed;
+    border-top:1px solid #ffffff ;
+    box-shadow:0 2px 20px #FF00F5, inset 0 1px  #FF00F5;
+}
+
+footer img {
+    width: 5%;
+    float: left;
+    position: relative;
+    left: 5%;
+}
+
+footer ul {
+    list-style: none;
+    text-align: center;
+}
+
+footer ul li {
+    display: inline;
+    margin: 0 3vw 0 3vw;
+}
+
+footer ul li a {
+    text-decoration: underline 0.3em;
+    background: black;
+    text-decoration-color: rgba(255, 255, 255, 0);
+    font-size: 50%;
+    transition: text-decoration-color 500ms, color 500ms;
+}
+
+#footer-li-te {
+    color: #DB323D;
+}
+
+#footer-li-te:hover {
+    color: whitesmoke;
+    text-decoration-color: #DB323D;
+}
+
+#footer-li-re {
+    color: #C200BB;
+}
+
+#footer-li-re:hover {
+    color: whitesmoke;
+    text-decoration-color: #C200BB;
+}
+
+#footer-li-an {
+    color: #00CC66;
+}
+
+#footer-li-an:hover {
+    color: whitesmoke;
+    text-decoration-color: #00CC66;
+}
+
+#footer-li-ci {
+    color: #2ADCF4;
+}
+
+#footer-li-ci:hover {
+    color: whitesmoke;
+    text-decoration-color: #2ADCF4;
+}
+
+footer p {
+  
+    font-size: 50%;
+}
+
+#footer-p1 {
+    text-align: center;
+    margin: 1% auto auto auto;
+}
+
+#footer-p2 {
+    text-align: right;
+    margin-right: 2vw;
+}
 /* #endregion Page d'accueil */
 
 
