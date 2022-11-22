@@ -818,14 +818,6 @@ flex-basis: auto;
     transform: scale(1.5);
 }
 
-.te-accueil a:hover #te-rouages-haut img {
-    animation-name: rotate;
-    animation-duration: 1300ms;
-    animation-iteration-count: infinite;
-    animation-direction: reverse;
-    animation-timing-function: linear;
-}
-
 @keyframes rotate {
     from {
         transform: translate(0, 0);
@@ -838,7 +830,15 @@ flex-basis: auto;
     }
 }
 
-.te-accueil a:hover #te-rouages-bas img {
+.te-accueil a #te-rouages-haut img {
+    animation-name: rotate;
+    animation-duration: 1300ms;
+    animation-iteration-count: infinite;
+    animation-direction: reverse;
+    animation-timing-function: linear;
+}
+
+.te-accueil a #te-rouages-bas img {
     animation-name: rotate;
     animation-duration: 1300ms;
     animation-iteration-count: infinite;
@@ -852,31 +852,31 @@ flex-basis: auto;
 
 .te-accueil a div #te-rouage1 {
     position: absolute;
-    left: calc(50vw - 100px - 135px);
+    left: calc(50vw - 100px - 135px - 20px);
     top: 450px;
 }
 
 .te-accueil a div #te-rouage2 {
     position: absolute;
-    left: calc(50vw - 100px + 135px);
+    left: calc(50vw - 100px + 135px - 20px);
     top: 450px;
 }
 
 .te-accueil a div #te-rouage3 {
     position: absolute;
-    left: calc(50vw - 100px - 142px - 120px - 8px);
+    left: calc(50vw - 100px - 142px - 120px - 8px - 20px);
     top: calc(450px + 140px);
 }
 
 .te-accueil a div #te-rouage4 {
     position: absolute;
-    left: calc(50vw - 100px);
+    left: calc(50vw - 100px - 20px);
     top: calc(450px + 140px);
 }
 
 .te-accueil a div #te-rouage5 {
     position: absolute;
-    left: calc(50vw - 100px + 142px + 120px + 8px);
+    left: calc(50vw - 100px + 142px + 120px + 8px - 20px);
     top: calc(450px + 140px);
 }
 #footer_en_bas{

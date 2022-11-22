@@ -393,5 +393,91 @@ padding: 1em 0em 1em 0em;
 
 
 /* #region Technologies */
+.te-accueil #grand-titre-technologies {
+    font-family: "Press Start 2P";
+    font-size: 1.5em;
+    text-align: center;
+    margin-top: 25%;
+}
 
+@keyframes tanguer {
+    from {
+        transform: scale(1) rotate(-2deg);
+    }
+    
+    to {
+        transform: scale(1.1) rotate(2deg);
+    }
+}
+
+.te-accueil a:hover #grand-titre-technologies {
+    transform: none;
+}
+
+.te-accueil a #grand-titre-technologies {
+    animation-name: tanguer;
+    animation-duration: 1500ms;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+}
+
+.te-accueil a #te-rouages-haut img {
+    animation-name: rotate;
+    animation-duration: 1300ms;
+    animation-iteration-count: infinite;
+    animation-direction: reverse;
+    animation-timing-function: linear;
+}
+
+.te-accueil a #te-rouages-bas img {
+    animation-name: rotate;
+    animation-duration: 1300ms;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-timing-function: linear;
+}
+
+.te-accueil a div img {
+    width: 140px;
+}
+
+.te-accueil a div #te-rouage1 {
+    position: absolute;
+    left: calc(50vw - 50px - 90px - 20px);
+    top: calc(45vh + 100px);
+}
+
+.te-accueil a div #te-rouage2 {
+    position: absolute;
+    left: calc(50vw - 50px + 90px - 20px);
+    top: calc(45vh + 100px);
+}
+
+.te-accueil a div #te-rouage3 {
+    display: none;
+}
+
+.te-accueil a div #te-rouage4 {
+    position: absolute;
+    left: calc(50vw - 50px - 20px);
+    top: calc(45vh);
+}
+
+.te-accueil a div #te-rouage5 {
+    display: none;
+}
+#footer_en_bas{
+    position: absolute;
+    bottom: 0;
+}
+
+.te-accueil a div ul li {
+    flex: 18%;
+}
+
+.te-accueil a div ul img {
+    margin: 20% auto 0 auto;
+    width: 17vw;
+}
 /* #endregion Technologies */
