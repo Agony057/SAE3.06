@@ -899,8 +899,7 @@ flex-basis: auto;
 }
 
 .te-body {
-    background: black;
-    background-image: url('lib/images/background.jpg');
+
     background-size: auto;
     color: whitesmoke;
     font-family: 'Montserrat';
