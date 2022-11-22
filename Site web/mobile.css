@@ -449,11 +449,20 @@ padding: 1em 0em 1em 0em;
 
 
 /* #region Technologies */
+#te-ancre {
+    display: none;
+}
+
 .te-accueil #grand-titre-technologies {
     font-family: "Press Start 2P";
     font-size: 1.5em;
     text-align: center;
     margin-top: 25%;
+}
+
+.te-body h2 {
+    font-size: 1.5em;
+    margin: 5% 0 5% 0;
 }
 
 @keyframes tanguer {
@@ -536,4 +545,166 @@ padding: 1em 0em 1em 0em;
     margin: 20% auto 0 auto;
     width: 17vw;
 }
+
+.te-body {
+    padding: 0;
+}
+
+.te-body p {
+    font-weight: 500;
+    text-align: justify;
+    margin: 5% 0 0 0;
+    padding: 5%;
+    background: rgba(219, 50, 61, 0.2);
+    color: white;
+}
+
+.te-body h5 {
+    margin: 5% 0 0 5%;
+    padding: 0;
+}
+
+.te-body #te-sommaire {
+    margin-left: 5%;
+    padding: 0;
+}
+
+#te-footer-sommaire {
+    position: absolute;
+    bottom: 0;
+}
+
+.te-paragraphe-accroche {
+    font-weight: normal;
+    font-size: 1em;
+} 
+
+.te-article {
+    border-radius: 0;
+    padding: 0;
+    margin: 0 3%;
+    border: rgba(255,255,255,0.8) 1px solid;
+}
+
+.te-article-stockage {
+    display: block;
+    margin-top: 5%;
+}
+
+.te-article-stockage img {
+    display: none;
+}
+
+.te-article-stockage h4 {
+    font-size: 1.5em;
+    text-decoration: underline 0.2em;
+}
+
+.te-article-stockage h3 {
+    font-size: 1.2em;
+    width: 100%;
+    text-align: center;
+    margin: 0 0 4% 0;
+    color: white;
+    font-style: italic;
+}
+
+.te-article-stockage p {
+    display: block;
+    width: auto;
+    padding: 1% 2%;
+    margin: 0;
+    background: rgba(255, 255, 255, 0.8);
+    color: black;
+}
+
+.te-article-stockage div p {
+    display: block;
+    width: initial;
+    text-align: justify;
+    background-color: transparent;
+    color: white;
+}
+
+.te-article-stockage div {
+    background-color: transparent;
+    border-radius: 20px;
+    padding: 3%;
+    color: black;
+}
+
+.te-stockage-img {
+    width: 20%;
+    height: 20%;
+    vertical-align: middle;
+}
+
+#te-article-double-div {
+    display: block;
+}
+
+.te-div-double {
+    max-width: 100%;
+    min-height: 0;
+    background-color: rgba(255,255,255,0.8) !important;
+    padding: 2% 0 !important;
+    margin: 4%;
+}
+
+.te-div-double h3 {
+    color: black;
+}
+
+.te-div-double p {
+    color: black !important;
+}
+
+#te-figure-ecrans {
+    margin: 0 0 6% 0;
+    caption-side: bottom;
+    font-style: italic;
+}
+
+#te-figure-ecrans div {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#te-figure-ecrans figcaption {
+    text-align: center;
+}
+
+#te-figure-ecrans img {
+    height: unset;
+    width: 70vw;
+    margin-top: 2%;
+    border-radius: 10px;
+}
+
+.te-video-afficheurs p {
+    background-color: transparent;
+    margin: 0;
+}
+
+.te-article-connexion {
+    margin-top: 20px;
+}
+
+.te-article-connexion p {
+    background-color: transparent;
+}
+
+.te-video-afficheurs > h3 {
+    text-decoration: underline 0.2em;
+}
+
+.te-body .te-footer-links {
+    margin-bottom: 110px;
+}
+
+.te-body .te-footer-links a {
+    font-size: 0.7em;
+}
+
 /* #endregion Technologies */
