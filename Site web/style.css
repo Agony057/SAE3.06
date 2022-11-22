@@ -664,11 +664,47 @@ text-align: center;
 margin :auto;
 }
 
+.an-text{
+    padding: 10px 10px 10px 10px;
+    border: 5px dotted #e6e6e6;
+    margin: 0px auto;
+    width: 80%;
+    text-shadow: 1px 3px 0px  #a40f89;
+    font-size: 15px;
+    text-align: justify;
+    color: #e6e6e6;
+    font-family:'Courier New', Courier, monospace;
+}
+
 #halobleu{
 width: 139px;
 height: 139PX;
 position: relative;
 top: 45px;
+padding-left: 0px;
+}
+
+#an-flèche1{
+height: 100px;
+width: auto;
+}
+
+#an-flèche2{
+    height: 100px;
+    width: auto;
+    transform: rotate(0.5turn);
+    
+}
+
+.an-album{
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+flex-basis: auto;   
+}
+
+.an-vignette{
+
 }
 
 .slideshow
@@ -703,34 +739,27 @@ top: 45px;
 @-webkit-keyframes slide1{
 	0%{background-image: url("../lib/images/Dessin anime/Mickey.gif");}
 	25%{background-image: url("../lib/images/Dessin anime/Sailor moon guardian.gif");}
-	50%{background-image: url("../lib/images/Dessin anime/");}
-	75%{background-image: url("../lib/images/Dessin anime");}
+	50%{background-image: url("../lib/images/Dessin anime/Goldorak.jpeg");}
+	75%{background-image: url("../lib/images/Dessin anime/pngegg.png");}
 }
 
 @-moz-keyframes slide1{
-	0%{background-image: url("../lib/images/Dessin anime");}
-	25%{background-image: url("../lib/images/Dessin anime");}
-	50%{background-image: url("../lib/images/Dessin anime");}
-	75%{background-image: url("../lib/images/Dessin anime");}
+	0%{background-image: url("../lib/images/Dessin anime/Mickey.gif");}
+	25%{background-image: url("../lib/images/Dessin anime/Sailor moon guardian.gif");}
+	50%{background-image: url("../lib/images/Dessin anime/Goldorak.jpeg");}
+	75%{background-image: url("../lib/images/Dessin anime/pngegg.png");}
 	
 }
 
 	
 @keyframes slide1{
-	0%{background-image: url("../lib/images/Dessin anime");}
-	25%{background-image: url("../lib/images/Dessin anime");}
-	50%{background-image: url("../lib/images/Dessin anime");}
-	75%{background-image: url("../lib/images/Dessin anime");}
+	0%{background-image: url("../lib/images/Dessin anime/Mickey.gif");}
+	25%{background-image: url("../lib/images/Dessin anime/Sailor moon guardian.gif");}
+	50%{background-image: url("../lib/images/Dessin anime/Goldorak.jpeg");}
+	75%{background-image: url("../lib/images/Dessin anime/pngegg.png");}
 }
 
-.an-text{
-    font-family:'Courier New', Courier, monospace;
 
-}
-
-.an-vignette{
-
-}
 /* #endregion Dessins-animés */
 
 
