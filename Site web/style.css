@@ -279,11 +279,6 @@ footer {
     background: black;
 }
 
-#te-footer-sommaire {
-    position: absolute;
-    bottom: 0px;
-}
-
 footer img {
     width: 5%;
     float: left;
@@ -885,8 +880,8 @@ flex-basis: auto;
     top: calc(450px + 140px);
 }
 #footer_en_bas{
-    position: absolute;
-    bottom:0px;
+    position: static;
+    margin-top: 592px;
 }
 
 .te-accueil a div ul li {
@@ -918,8 +913,8 @@ flex-basis: auto;
 }
 
 #te-footer-sommaire {
-    position: absolute;
-    bottom: 0px;
+    position: static;
+    margin-top: 132px;
 }
 
 .te-body #te-sommaire li {
