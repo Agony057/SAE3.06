@@ -700,11 +700,14 @@ width: auto;
 display: flex;
 flex-direction: row;
 flex-wrap: wrap;
-flex-basis: auto;   
+flex-basis: auto; 
+flex :auto;
 }
 
 .an-vignette{
-
+color: white;
+background: rgba(255, 182, 193, 0.5);
+margin: ;
 }
 
 .slideshow
