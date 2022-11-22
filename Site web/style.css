@@ -152,6 +152,13 @@
     src: url(lib/fonts/Yellowtail/Yellowtail-Regular.ttf);
 }   /* #endregion */
 
+    /* #region AlienSF */
+@font-face {
+    font-family: 'AlienSF';
+    src: url(lib/fonts/SFAlien/SFAlienEncounters.ttf);
+    font-size: xx-large;
+    }   /* #endregion */
+
 /* #endregion Import police */
 
 /* #region Page d'accueil */
@@ -656,7 +663,30 @@ border-bottom-left-radius: 80px 80px;
 
 
 /* #region Cinéma */
+.ci_sommaire_list>li {
+    list-style-type: none;
+    margin-left: 10%;
+    font-size: xx-large;
+    font-weight: bold;
+}
 
+.ci_sommaire_list>ul>li, .ci_sommaire_list>ul>li>a{
+    list-style-type: none;
+    margin-left: 7%;
+    font-size: x-large;
+    color: #2ADCF4;
+    text-decoration: none;
+    padding: 5px;
+}
+
+
+.ci_footer_links li {
+    display: inline-block;
+    list-style-type: none;
+    width: 30%;
+    padding: 10px;
+    text-align: center;
+}
 /* #endregion Cinéma */
 
 
