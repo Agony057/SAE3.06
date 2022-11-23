@@ -210,11 +210,65 @@ padding-left: 2vw;
   color: white;
   margin:0;
   
-  
+}
+#accueil-titre {
+    font-family: 'Russo One';
+    text-align: center;
+    font-size: 2em;
+    background: linear-gradient(180deg, #40E5E5 30%, #FFFFFF 50%, #FF00F5 70%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: #FFFFFF 0.1px;
+    /* text-shadow: 4px 4px 0px black, 4px 4px 15px white; */
+    filter: drop-shadow(4px 4px 0px black) drop-shadow(2px 2px 5px rgba(255, 255, 255, 0.6));
+}
 
+#accueil-noms {
+    font-family: 'Yellowtail';
+    font-weight: 500;
+    text-align: center;
+    font-size: 1.6em;
+    transform: rotate(-5deg);
+    text-shadow: 0px 0px 8px #FF00F5, 0px 0px 6px white;
+    margin-bottom: 6%;
+    position: relative;
+    bottom: 20px;
+    transition: 400ms;
+}
+#intro{
+    text-align: left;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Montserrat';
+
+    font-size: large;
+  }
+
+.vignette{
+    text-align: center;
+}
+.Technologies{
+    
+    background-image: radial-gradient( #fd8989 , #DB323D );
+}
+.Dessin{
+    background-image: radial-gradient(  #62f6ac , #00CC66);
+}
+ .Retrogaming{
+    background-image: radial-gradient( #fc69f5 , #bf00b5);
+}
+ .Cinema{
+    background-image: radial-gradient(  #89e7ff , #21a0c4);
+    margin-bottom: 20vh;
+    padding:5px
+}
+.icone-card{
+    height: 20vh;
 }
 
 footer {
+    
     font-family: "Press Start 2P";
 
     width: 100%;
