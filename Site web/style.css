@@ -287,7 +287,9 @@ padding-left: 3em;
   
   .navigation  {
     width: 100%;
-    justify-content: space-around;
+    flex-wrap: wrap;
+    
+   
   }
 }
 
@@ -409,7 +411,7 @@ footer p {
   }
   
   :root {
-    --vignette-height: 50vh;
+    --vignette-height: 25vw;
     --vignette-width: calc(var(--vignette-height));
   }
   .Technologies{
