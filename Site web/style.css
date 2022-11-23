@@ -152,6 +152,28 @@
     src: url(lib/fonts/Yellowtail/Yellowtail-Regular.ttf);
 }   /* #endregion */
 
+    /* #region AlienSF */
+@font-face {
+    font-family: 'AlienSF';
+    src: url(lib/fonts/SFAlien/SFAlienEncounters.ttf);
+    }
+
+@font-face {
+    font-family: 'AlienSFItalic';
+    src: url(lib/fonts/SFAlien/SFAlienEncounters-Italic.ttf);
+}
+
+@font-face {
+    font-family: 'AlienSFSolid';
+    src: url(lib/fonts/SFAlien/SFAlienEncountersSolid.ttf);
+}
+
+@font-face {
+    font-family: 'AlienSFSolidItalic';
+    src: url(lib/fonts/SFAlien/SFAlienEncountersSolid-Ital.ttf);
+}
+   /* #endregion */
+
 /* #endregion Import police */
 
 /* #region Page d'accueil */
@@ -653,7 +675,133 @@ border-bottom-left-radius: 80px 80px;
 
 
 /* #region Cinéma */
+.ci_body {
+    font-family: Montserrat;
+    text-align: justify;
+}
 
+.ci_accueil_gif {
+    text-align: center;
+}
+
+#ci_acc_fig {
+    font-family: AlienSFSolid;
+    color: #2ADCF4;
+    font-size: larger;
+}
+
+.ci_accueil_gif a img:hover {
+    opacity: 0.3;
+}
+
+#ci_sommaire_p, #ci_jeu_p {
+    text-align: center;
+    padding: 2% 6%;
+    margin: 1% 5% 0% 5%;
+    background-color: #2adcf43e;
+    font-size: 1.55em;
+    border-radius: 45px 45px 45px 45px;
+}
+
+.ci_sommaire_list>li {
+    list-style-type: none;
+    margin-left: 10%;
+    font-size: 1.6em;
+    font-weight: bold;
+
+}
+
+.ci_titre_page {
+    font-family: AlienSFItalic;
+    font-weight: normal;
+    font-size: 6em;
+    color: #2ADCF4;
+    text-align: center;
+
+}
+
+.ci_sommaire_list>ul>li, .ci_sommaire_list>ul>li>a{
+    list-style-type: none;
+    margin-left: 7%;
+    font-size: 1.25em;
+    font-weight: bold;
+    color: #2ADCF4;
+    text-decoration: none;
+    padding: 5px;
+}
+
+.ci_sommaire_list>ul>li>a:hover {
+    padding-bottom: 0;
+    border-bottom: #2ADCF4 groove 6px;
+    color: whitesmoke;
+    text-shadow: 2px 2px 8px #2ADCF4 ;
+}
+
+.ci_film_année_pair {
+    text-align: center;
+}
+
+.ci_film_année_impair {
+    text-align: center;
+}
+
+.ci_film_année_pair>li {
+    display: inline-block;
+    width: 18%;
+    margin: 0%;
+    padding: 0%;
+    text-align: justify;
+}
+
+.ci_film_année_impair>li {
+    display: inline-block;
+    width: 18%;
+    text-indent: 18%;
+    text-align: 10%;
+}
+
+.ci_film_année_pair>li>a, .ci_film_année_impair>li>a{
+    text-decoration: none;
+    color: #2ADCF4;
+    font-weight: bolder;
+    font-size: x-large;
+}
+
+.ci_film_année_impair>li>a:hover, .ci_film_année_pair>li>a:hover{
+    color: whitesmoke;
+    text-shadow: 2px 2px 10px #2ADCF4 ;
+}
+
+.ci_annee_cible {
+    text-align: center;
+    color: #2ADCF4;
+    font-weight: bolder;
+    font-size: 40px;
+}
+
+.ci_film_pair, .ci_film_impair>img {
+    text-align: right;
+    border: whitesmoke dashed 1px;
+}
+
+.ci_film_impair, .ci_film_pair>img {
+    text-align: left;
+}
+
+.ci_footer_links li {
+    display: inline-block;
+    list-style-type: none;
+    width: 30%;
+    padding: 10px;
+    text-align: center;
+    font-family: Montserrat;
+}
+
+.ci_footer_links li a {
+    font-weight: bold;
+    text-decoration: none;
+    color: #2ADCF4;
+}
 /* #endregion Cinéma */
 
 
@@ -702,11 +850,14 @@ width: auto;
 display: flex;
 flex-direction: row;
 flex-wrap: wrap;
-flex-basis: auto;   
+flex-basis: auto; 
+flex :auto;
 }
 
 .an-vignette{
-
+color: white;
+background: rgba(255, 182, 193, 0.5);
+margin: 1%;
 }
 
 .slideshow
