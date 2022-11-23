@@ -777,13 +777,39 @@ border-bottom-left-radius: 80px 80px;
     font-size: 40px;
 }
 
-.ci_film_pair, .ci_film_impair>img {
-    text-align: right;
-    border: whitesmoke dashed 1px;
+.ci_film_pair{
+    text-align: justify;
+    display: inline-flex;
+    font-size: 1.4em;
+    background-color: #2adcf43e;
+    border-radius: 45px;
+    max-height: 500px;
 }
 
-.ci_film_impair, .ci_film_pair>img {
-    text-align: left;
+.ci_film_pair img {
+    max-height: 80%;
+    margin: 5% 0% 0% 5%;
+
+    /* border-radius: 0px5 */
+}
+
+.ci_film_pair p, .ci_film_impair p {
+    width: 45vw;
+    margin: 2% 1%;
+}
+
+.ci_film_impair {
+    text-align: justify;
+    display: inline-flex;
+    font-size: 1.4em;
+    background-color: #2adcf43e;
+    border-radius: 45px;
+}
+
+.ci_film_impair img {
+    width: 50vw;
+    margin: 10% 0% 5% 0%;
+    /* border-radius: 0px5 */
 }
 
 .ci_footer_links li {
