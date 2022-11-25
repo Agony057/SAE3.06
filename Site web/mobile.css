@@ -504,7 +504,7 @@ padding: 1em 0em 1em 0em;
 
 /* #region Technologies */
 #te-ancre {
-    display: none;
+    display: none !important;
 }
 
 .te-accueil #grand-titre-technologies {
@@ -747,6 +747,78 @@ padding: 1em 0em 1em 0em;
 
 .te-article-connexion p {
     background-color: transparent;
+}
+
+.te-controleurs br {
+    display: none;
+}
+
+.te-controleurs p {
+    margin: 0 4% !important;
+    border-left: rgba(255,255,255,0.8) solid 1px;
+    border-right: rgba(255,255,255,0.8) solid 1px;
+    border-bottom: rgba(255,255,255,0.8) solid 1px;
+    border-radius: 0 0 15px 15px;
+}
+
+.te-figure-gauche {
+    text-align: center;
+    float: initial;
+    margin: 4% 4% 0 4%;
+    padding: 10% 0 4% 0;
+    background-color: rgba(219, 50, 61, 0.2);
+    border-radius: 15px 15px 0 0;
+    border-left: rgba(255,255,255,0.8) solid 1px;
+    border-right: rgba(255,255,255,0.8) solid 1px;
+    border-top: rgba(255,255,255,0.8) solid 1px;
+}
+
+.te-figure-droite {
+    text-align: center;
+    float: initial;
+    margin: 4% 4% 0 4%;
+    padding: 10% 0 4% 0;
+    background-color: rgba(219, 50, 61, 0.2);
+    border-radius: 15px 15px 0 0;
+    border-left: rgba(255,255,255,0.8) solid 1px;
+    border-right: rgba(255,255,255,0.8) solid 1px;
+    border-top: rgba(255,255,255,0.8) solid 1px;
+}
+
+.te-figure-gauche img {
+    height: auto !important;
+    width: 70vw !important;
+    border-radius: 15px;
+}
+
+.te-figure-droite img {
+    height: auto !important;
+    width: 70vw !important;
+    border-radius: 15px;
+}
+
+.te-controleurs .p-top {
+    margin-top: 4% !important;
+    border-top: rgba(255,255,255,0.8) solid 1px;
+    border-bottom: none !important;
+    border-radius: 15px 15px 0 0;
+}
+
+.te-controleurs .p-middle {
+    border-top: rgba(255,255,255,0.8) solid 1px;
+    border-top: none !important;
+    border-bottom: none !important;
+    border-radius: 0;
+}
+
+#te-div-manettes {
+    background-color: rgba(219, 50, 61, 0.2);
+    padding: 4%;
+    margin: 0 4%;
+    border-left: rgba(255,255,255,0.8) solid 1px;
+    border-right: rgba(255,255,255,0.8) solid 1px;
+    border-bottom: rgba(255,255,255,0.8) solid 1px;
+    border-radius: 0 0 15px 15px;
 }
 
 .te-video-afficheurs > h3 {
