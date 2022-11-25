@@ -906,12 +906,17 @@ flex-direction: row;
 flex-wrap: wrap;
 flex-basis: auto; 
 flex :auto;
+align-items: center;
+justify-content : space-around;
 }
 
 .an-vignette{
 color: white;
 background: rgba(255, 182, 193, 0.5);
-margin: 1%;
+margin: 2%;
+padding: 20px 20px 20px 20px;
+border-radius: 20px;
+ 
 }
 
 .slideshow
@@ -921,49 +926,6 @@ margin: 1%;
 	height: 180px;
 	border: 2px solide #333;
 	background-image: url("../lib/images/Dessin anime/Mickey.gif");
-	
-	-webkit-animation-name: slide1;
-	-webkit-animation-duration: 9s;
-	-webkit-animation-timing-function: linear;
-	-webkit-animation-iteration-count: infinite;
-	-webkit-animation-direction: normal;
-	
-	-moz-animation-name: slide1;
-	-moz-animation-duration: 9s;
-	-moz-animation-timing-function: linear;
-	-moz-animation-iteration-count: infinite;
-	-moz-animation-direction: normal;
-	
-	
-	animation-name: slide1;
-	animation-duration: 9s;
-	animation-timing-function: linear;
-	animation-iteration-count: infinite;
-	animation-direction: normal;
-	
-}	
-	
-@-webkit-keyframes slide1{
-	0%{background-image: url("../lib/images/Dessin anime/Mickey.gif");}
-	25%{background-image: url("../lib/images/Dessin anime/Sailor moon guardian.gif");}
-	50%{background-image: url("../lib/images/Dessin anime/Goldorak.jpeg");}
-	75%{background-image: url("../lib/images/Dessin anime/pngegg.png");}
-}
-
-@-moz-keyframes slide1{
-	0%{background-image: url("../lib/images/Dessin anime/Mickey.gif");}
-	25%{background-image: url("../lib/images/Dessin anime/Sailor moon guardian.gif");}
-	50%{background-image: url("../lib/images/Dessin anime/Goldorak.jpeg");}
-	75%{background-image: url("../lib/images/Dessin anime/pngegg.png");}
-	
-}
-
-	
-@keyframes slide1{
-	0%{background-image: url("../lib/images/Dessin anime/Mickey.gif");}
-	25%{background-image: url("../lib/images/Dessin anime/Sailor moon guardian.gif");}
-	50%{background-image: url("../lib/images/Dessin anime/Goldorak.jpeg");}
-	75%{background-image: url("../lib/images/Dessin anime/pngegg.png");}
 }
 
 
