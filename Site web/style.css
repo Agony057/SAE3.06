@@ -688,12 +688,12 @@ border-bottom-left-radius: 80px 80px;
     font-family: AlienSFSolid, Montserrat;
     color: #2ADCF4;
     font-size: larger;
-
 }
 
 .ci_accueil_gif a img:hover {
     opacity: 0.3;
     border: #2ADCF4 groove 4px;
+    border-radius: 60px;
     font-size: larger;
 }
 
@@ -711,7 +711,6 @@ border-bottom-left-radius: 80px 80px;
     margin-left: 10%;
     font-size: 1.6em;
     font-weight: bold;
-
 }
 
 .ci_titre_page {
@@ -794,14 +793,23 @@ border-bottom-left-radius: 80px 80px;
     align-items: center;
 }
 
+.ci_film_pair p a {
+    text-align: center;
+}
+
 .ci_film_pair>img {
-    width: 50%;
-    margin: auto;
+    width: 30%;
+    margin: 3% auto;
     object-fit: contain;
 }
 
 .ci_film_pair a, .ci_film_impair a {
     text-decoration: none;
+    color: #2ADCF4;
+    margin: auto 40%;
+}
+
+.ci_film_pair p b, .ci_film_impair p b {
     color: #2ADCF4;
 }
 
@@ -812,7 +820,7 @@ border-bottom-left-radius: 80px 80px;
 }
 
 .ci_film_pair>p, .ci_film_impair>p {
-    width: 50%;
+    width: 70%;
     margin: 2% 1%;
 }
 
@@ -829,8 +837,8 @@ border-bottom-left-radius: 80px 80px;
 }
 
 .ci_film_impair>img {
-    width: 50%;
-    margin: auto;
+    width: 30%;
+    margin: 3% auto;
     object-fit: contain;
 }
 
