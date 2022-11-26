@@ -959,12 +959,14 @@ transform: scale(1.5) translate(30px);
 
 .an-album{
 display: flex;
-flex-direction: row;
 flex-wrap: wrap;
 flex-basis: auto; 
 flex :auto;
 align-items: center;
 justify-content : space-around;
+}
+.an-album-suite{
+display: flex;
 }
 
 .an-vignette{
@@ -975,6 +977,18 @@ margin: 2%;
 padding: 20px 20px 20px 20px;
 border-radius: 20px;
  
+}
+
+.an-vignette2{
+    color: white;
+    font-family:"bungeeInline";
+    background: rgba(255, 182, 193, 0.5);
+    margin: 2%;
+    padding: 20px 20px 20px 20px;
+    border-radius: 20px;
+    display : flex;
+    -ms-flex-align: center;
+
 }
 
 .slideshow
