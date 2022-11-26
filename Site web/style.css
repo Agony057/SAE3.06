@@ -306,6 +306,8 @@ footer {
     position: relative;
     bottom: 0px;
     background: black;
+        border-top:1px solid #ffffff ;
+    box-shadow:0 -2px 20px #FF00F5, inset 0 1px  #FF00F5;
 }
 
 footer img {
