@@ -172,6 +172,11 @@
     font-family: 'AlienSFSolidItalic';
     src: url(lib/fonts/SFAlien/SFAlienEncountersSolid-Ital.ttf);
 }
+
+@font-face {
+    font-family: 'bungeeInline';
+    src: url(lib/fonts/bungeeInline.ttf);
+}
    /* #endregion */
 
 /* #endregion Import police */
@@ -921,7 +926,7 @@ margin :auto;
     width: 80%;
     text-shadow: 1px 3px 0px  #a40f89;
     font-size: 15px;
-    text-align: justify;
+    text-align: center;
     color: #e6e6e6;
     font-family:'Courier New', Courier, monospace;
 }
@@ -937,14 +942,33 @@ padding-left: 0px;
 #an-flèche1{
 height: 100px;
 width: auto;
+overflow: hidden;
+}
+#an-flèche1{
+width: 100px;
+transition: transform .1s;
+}
+#an-flèche1:hover{
+-ms-transform: scale(1.5) translate(30px);
+-webkit-transform: scale(1.5) translate(30px);
+transform: scale(1.5) translate(30px);
 }
 
 #an-flèche2{
     height: 100px;
     width: auto;
     transform: rotate(0.5turn);
-    
+    overflow: hidden;
 }
+#an-flèche2{
+    width: 100px;
+    transition: transform .1s;
+    }
+#an-flèche2:hover{
+    -ms-transform: scale(1.5) translate(30px);
+    -webkit-transform: scale(1.5) translate(30px);
+    transform: scale(1.5) translate(30px);
+    }
 
 .an-album{
 display: flex;
@@ -958,6 +982,7 @@ justify-content : space-around;
 
 .an-vignette{
 color: white;
+font-family:"bungeeInline";
 background: rgba(255, 182, 193, 0.5);
 margin: 2%;
 padding: 20px 20px 20px 20px;
