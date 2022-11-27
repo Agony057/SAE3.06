@@ -172,6 +172,11 @@
     font-family: 'AlienSFSolidItalic';
     src: url(lib/fonts/SFAlien/SFAlienEncountersSolid-Ital.ttf);
 }
+
+@font-face {
+    font-family: 'bungeeInline';
+    src: url(lib/fonts/bungeeInline.ttf);
+}
    /* #endregion */
 
 /* #endregion Import police */
@@ -301,6 +306,8 @@ footer {
     position: relative;
     bottom: 0px;
     background: black;
+        border-top:1px solid #ffffff ;
+    box-shadow:0 -2px 20px #FF00F5, inset 0 1px  #FF00F5;
 }
 
 footer img {
@@ -541,6 +548,19 @@ footer p {
 
 
 /* #region Jeux-vidéos */
+#re-ancre {
+    position: fixed;
+    right: 2%;
+    bottom: 15%;
+    width: 4.2vw;
+    opacity: 50%;
+    border-radius: 100%;
+    box-shadow:0 0 20px #FF00F5;
+}
+
+#re-ancre:hover {
+    opacity: 100%;
+}
 #re_insert_title{
     text-align: center;
     font-family:"Press Start 2P" ;
@@ -916,7 +936,7 @@ margin :auto;
     width: 80%;
     text-shadow: 1px 3px 0px  #a40f89;
     font-size: 15px;
-    text-align: justify;
+    text-align: center;
     color: #e6e6e6;
     font-family:'Courier New', Courier, monospace;
 }
@@ -932,32 +952,66 @@ padding-left: 0px;
 #an-flèche1{
 height: 100px;
 width: auto;
+overflow: hidden;
+}
+#an-flèche1{
+width: 100px;
+transition: transform .1s;
+}
+#an-flèche1:hover{
+-ms-transform: scale(1.5) translate(30px);
+-webkit-transform: scale(1.5) translate(30px);
+transform: scale(1.5) translate(30px);
 }
 
 #an-flèche2{
     height: 100px;
     width: auto;
     transform: rotate(0.5turn);
-    
+    overflow: hidden;
 }
+#an-flèche2{
+    width: 100px;
+    transition: transform .1s;
+    }
+#an-flèche2:hover{
+    -ms-transform: scale(1.5) translate(30px);
+    -webkit-transform: scale(1.5) translate(30px);
+    transform: scale(1.5) translate(30px);
+    }
 
 .an-album{
 display: flex;
-flex-direction: row;
 flex-wrap: wrap;
 flex-basis: auto; 
 flex :auto;
 align-items: center;
 justify-content : space-around;
 }
+.an-album-suite{
+display: flex;
+}
 
 .an-vignette{
 color: white;
+font-family:"bungeeInline";
 background: rgba(255, 182, 193, 0.5);
 margin: 2%;
 padding: 20px 20px 20px 20px;
 border-radius: 20px;
  
+}
+
+.an-vignette2{
+    color: white;
+    font-family:"bungeeInline";
+    background: rgba(255, 182, 193, 0.5);
+    margin: 2%;
+    padding: 20px 20px 20px 20px;
+    border-radius: 20px;
+    display : flex;
+    -ms-flex-align: center;
+
 }
 
 .slideshow
@@ -980,7 +1034,7 @@ border-radius: 20px;
     right: 0.35%;
     bottom: 12%;
     width: 4.2vw;
-    opacity: 20%;
+    opacity: 70%;
 }
 
 #te-ancre:hover {
