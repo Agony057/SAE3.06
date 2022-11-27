@@ -150,7 +150,13 @@
     @font-face {
         font-family: 'Yellowtail';
         src: url(lib/fonts/Yellowtail/Yellowtail-Regular.ttf);
-    }   /* #endregion */
+    }  
+    @font-face {
+        font-family: 'bungeeInline';
+        src: url(lib/fonts/bungeeInline.ttf);
+    }
+
+     /* #endregion */
     
     /* #endregion Import police */
 
@@ -511,51 +517,65 @@ padding: 1em 0em 1em 0em;
 
 /* #region Dessins-animés */
 #an-titre{
-    font-family:"Press Start 2P";
-    font-size: 8px;
-    text-align: center;
-    margin :auto;
-    }
-.an-text{
-    padding: 10px 10px 10px 10px;
-    border: 5px dotted #e6e6e6;
-    margin: 0px auto;
-    width: 80%;
-    text-shadow: 1px 3px 0px  #a40f89;
-    font-size: 10px;
-    text-align: center;
-    color: #e6e6e6;
-    font-family:'Courier New', Courier, monospace;
-    }
-    
-    #halobleu{
-    width: 10em;
-    height:auto;
-    position: relative;
-    top: 30px;
-    padding-left: 0px;
-    }
+font-family:"Press Start 2P";
+font-size: 8px;
+text-align: center;
+margin :auto;
+}
 
-    .an-album{
-        display: flex;
-        flex-direction: column;
-        flex-basis: auto; 
-        flex :auto;
-        align-items:flex-start;
-        justify-content : space-between;
-        }
-        .an-vignette{
-            color: white;
-            font-family:"bungeeInline";
-            background: rgba(255, 182, 193, 0.5);
-            margin: 2%;
-            padding: 10px 10px 10px 10px;
-            border-radius: 10px;
-        }
-        #an-flèche1{
-            height: 100px;
-            width: auto;
-        }
+.an-text{
+padding: 10px 10px 10px 10px;
+border: 5px dotted #e6e6e6;
+margin: 0px auto;
+width: 80%;
+text-shadow: 1px 3px 0px  #a40f89;
+font-size: 10px;
+text-align: center;
+color: #e6e6e6;
+font-family:'Courier New', Courier, monospace;
+}
+    
+#halobleu{
+width: 10em;
+height:auto;
+position: relative;
+top: 30px;
+padding-left: 0px;
+}
+
+.an-album{
+display: flex;
+flex-wrap: wrap;
+flex-basis: auto; 
+flex :auto;
+align-items: center;
+justify-content : space-around;
+}
+
+.rounded-img{
+border-radius: 10px;
+}
+    
+.an-vignette-img{
+background: rgb(255,0,245,0.5) ;
+margin: 2%;
+padding: 20px 20px 20px 20px;
+border-radius: 20px;     
+}
+    
+.an-vignette-caption{
+color: white;
+text-shadow: 0px 0px 2px rgba(255, 255, 255, 0.5), 0px 0px 2px rgb(212, 109, 109);
+font-family:"bungeeInline";
+background: rgba(255, 182, 193, 0.5);
+margin: 0%;
+padding: 0% 5% 0% 5%;
+border-radius: 10px;
+display : grid;
+-ms-flex-align:center;
+text-align: center;
+}
+
 /* #endregion Dessins-animés */
 
 
