@@ -1065,7 +1065,7 @@ border-radius: 20px;
     margin-top: 10%;
 }
 
-.te-accueil a {
+.te-accueil > a {
     text-decoration: none;
     color: #FFFFFF;
 }
@@ -1145,7 +1145,7 @@ border-radius: 20px;
 }
 #footer_en_bas{
     position: static;
-    margin-top: 592px;
+    margin-top: 584px;
 }
 
 .te-accueil a div ul li {
@@ -1177,7 +1177,7 @@ border-radius: 20px;
 
 #te-footer-sommaire {
     position: static;
-    margin-top: 132px;
+    margin-top: 128px;
 }
 
 .te-body #te-sommaire li {
