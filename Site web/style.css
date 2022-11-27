@@ -302,7 +302,7 @@ footer {
     font-family: "Press Start 2P";
     margin-top: 10px;
     width: 100%;
-    height: 7em;
+    height: 7.5em;
     position: relative;
     bottom: 0px;
     background: black;
@@ -1061,7 +1061,7 @@ text-align: center;
     margin-top: 10%;
 }
 
-.te-accueil a {
+.te-accueil > a {
     text-decoration: none;
     color: #FFFFFF;
 }
@@ -1141,7 +1141,7 @@ text-align: center;
 }
 #footer_en_bas{
     position: static;
-    margin-top: 592px;
+    margin-top: 584px;
 }
 
 .te-accueil a div ul li {
@@ -1173,7 +1173,7 @@ text-align: center;
 
 #te-footer-sommaire {
     position: static;
-    margin-top: 132px;
+    margin-top: 128px;
 }
 
 .te-body #te-sommaire li {
