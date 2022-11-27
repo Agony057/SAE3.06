@@ -308,6 +308,7 @@ footer {
     background: black;
         border-top:1px solid #ffffff ;
     box-shadow:0 -2px 20px #FF00F5, inset 0 1px  #FF00F5;
+    text-align:center;
 }
 
 footer img {
@@ -930,15 +931,15 @@ margin :auto;
 }
 
 .an-text{
-    padding: 10px 10px 10px 10px;
-    border: 5px dotted #e6e6e6;
-    margin: 0px auto;
-    width: 80%;
-    text-shadow: 1px 3px 0px  #a40f89;
-    font-size: 15px;
-    text-align: center;
-    color: #e6e6e6;
-    font-family:'Courier New', Courier, monospace;
+padding: 10px 10px 10px 10px;
+border: 5px dotted #e6e6e6;
+margin: 0px auto;
+width: 80%;
+text-shadow: 1px 3px 0px  #a40f89;
+font-size: 15px;
+text-align: center;
+color: #e6e6e6;
+font-family:'Courier New', Courier, monospace;
 }
 
 #halobleu{
@@ -965,20 +966,20 @@ transform: scale(1.5) translate(30px);
 }
 
 #an-flèche2{
-    height: 100px;
-    width: auto;
-    transform: rotate(0.5turn);
-    overflow: hidden;
+height: 100px;
+width: auto;
+transform: rotate(0.5turn);
+overflow: hidden;
 }
 #an-flèche2{
-    width: 100px;
-    transition: transform .1s;
-    }
+width: 100px;
+transition: transform .1s;
+}
 #an-flèche2:hover{
-    -ms-transform: scale(1.5) translate(30px);
-    -webkit-transform: scale(1.5) translate(30px);
-    transform: scale(1.5) translate(30px);
-    }
+-ms-transform: scale(1.5) translate(30px);
+-webkit-transform: scale(1.5) translate(30px);
+transform: scale(1.5) translate(30px);
+}
 
 .an-album{
 display: flex;
@@ -988,39 +989,34 @@ flex :auto;
 align-items: center;
 justify-content : space-around;
 }
-.an-album-suite{
-display: flex;
+
+.rounded-img{
+border-radius: 10px;
 }
 
-.an-vignette{
-color: white;
-font-family:"bungeeInline";
-background: rgba(255, 182, 193, 0.5);
+.an-vignette-img{
+background: rgb(255,0,245,0.5) ;
 margin: 2%;
 padding: 20px 20px 20px 20px;
 border-radius: 20px;
  
 }
 
-.an-vignette2{
-    color: white;
-    font-family:"bungeeInline";
-    background: rgba(255, 182, 193, 0.5);
-    margin: 2%;
-    padding: 20px 20px 20px 20px;
-    border-radius: 20px;
-    display : flex;
-    -ms-flex-align: center;
-
+.an-vignette-caption{
+color: white;
+text-shadow: 0px 0px 2px rgba(255, 255, 255, 0.5), 0px 0px 2px rgb(212, 109, 109);
+font-family:"bungeeInline";
+background: rgba(255, 182, 193, 0.5);
+margin: 0%;
+padding: 0% 5% 0% 5%;
+border-radius: 10px;
+display : grid;
+-ms-flex-align:center;
+text-align: center;
 }
 
 .slideshow
 {
-	margin: 0px auto;
-	width: 300px;
-	height: 180px;
-	border: 2px solide #333;
-	background-image: url("../lib/images/Dessin anime/Mickey.gif");
 }
 
 

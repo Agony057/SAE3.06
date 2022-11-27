@@ -544,12 +544,18 @@ padding: 1em 0em 1em 0em;
         align-items:flex-start;
         justify-content : space-between;
         }
-
+        .an-vignette{
+            color: white;
+            font-family:"bungeeInline";
+            background: rgba(255, 182, 193, 0.5);
+            margin: 2%;
+            padding: 10px 10px 10px 10px;
+            border-radius: 10px;
+        }
         #an-flèche1{
             height: 100px;
             width: auto;
-            overflow: hidden;
-            }
+        }
 /* #endregion Dessins-animés */
 
 
