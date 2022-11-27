@@ -171,7 +171,9 @@
 @font-face {
     font-family: 'AlienSFSolidItalic';
     src: url(lib/fonts/SFAlien/SFAlienEncountersSolid-Ital.ttf);
-}
+}   /* #endregion */
+
+    /*#region BungeeInLine */
 
 @font-face {
     font-family: 'bungeeInline';
@@ -856,12 +858,12 @@ border-bottom-left-radius: 80px 80px;
 
 .ci_film_pair>p {
     width: 70%;
-    margin: 2% 4% 0% 1%;
+    margin: 2% 4% 2% 1%;
 }
 
 .ci_film_impair>p {
     width: 70%;
-    margin: 2% 1% 0% 4%;
+    margin: 2% 1% 2% 4%;
 }
 
 .ci_film_impair {
