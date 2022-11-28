@@ -1031,6 +1031,17 @@ text-align: center;
 #an-body{
     overflow-x: hidden;
 }
+
+#an-accueil-footer {
+    position: static;
+    margin-top: 24vh;
+}
+
+#an-page2-footer {
+    position: static;
+    margin-top: 4vh;
+}
+
 /* #endregion Dessins-animés */
 
 
