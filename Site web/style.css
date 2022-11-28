@@ -927,7 +927,7 @@ border-bottom-left-radius: 80px 80px;
 font-family:"Press Start 2P";
 font-size: 2em;
 text-align: center;
-margin :auto;
+margin-bottom :5%;
 }
 
 .an-text{
@@ -1014,12 +1014,6 @@ display : grid;
 -ms-flex-align:center;
 text-align: center;
 }
-
-.slideshow
-{
-}
-
-
 /* #endregion Dessins-animés */
 
 
