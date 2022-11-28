@@ -549,6 +549,10 @@ padding: 1em 0em 1em 0em;
     text-align: center;
 }
 
+#ci_gif {
+    max-width: 100%;
+}
+
 #ci_acc_fig {
     font-family: AlienSFSolid, Montserrat;
     color: #2ADCF4;
@@ -572,7 +576,7 @@ padding: 1em 0em 1em 0em;
 .ci_titre_page {
     font-family: AlienSFItalic, Montserrat;
     font-weight: normal;
-    font-size: 5em;
+    font-size: 4.5em;
     color: #2ADCF4;
     text-align: center;
 }
