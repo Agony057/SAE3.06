@@ -626,6 +626,10 @@ footer p {
     list-style-type: none;
     text-decoration: none;
 }
+.re-nav li :hover{
+text-decoration:underline ;
+color: white;
+}
 .re-nav li:first-child{
 color: #FFFFFF;
 font-size: x-large;
