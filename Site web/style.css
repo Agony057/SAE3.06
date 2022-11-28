@@ -308,16 +308,16 @@ footer {
     position: relative;
     bottom: 0px;
     background: black;
-        border-top:1px solid #ffffff ;
-    box-shadow:0 -2px 20px #FF00F5, inset 0 1px  #FF00F5;
-    text-align:center;
+    border-top: 1px solid #ffffff ;
+    box-shadow: 0 -2px 20px #FF00F5, inset 0 1px  #FF00F5;
+    text-align: center;
 }
 
 footer img {
     width: 5%;
     float: left;
     position: relative;
-    left: 8vw;
+    left: 4vw;
 }
 
 footer ul {
@@ -1137,7 +1137,7 @@ text-align: center;
 }
 #footer_en_bas{
     position: static;
-    margin-top: 584px;
+    margin-top: 62vh;
 }
 
 .te-accueil a div ul li {
@@ -1169,7 +1169,7 @@ text-align: center;
 
 #te-footer-sommaire {
     position: static;
-    margin-top: 128px;
+    margin-top: 12vh;
 }
 
 .te-body #te-sommaire li {
