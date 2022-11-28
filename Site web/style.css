@@ -308,16 +308,16 @@ footer {
     position: relative;
     bottom: 0px;
     background: black;
-    border-top: 1px solid #ffffff ;
-    box-shadow: 0 -2px 20px #FF00F5, inset 0 1px  #FF00F5;
-    text-align: center;
+        border-top:1px solid #ffffff ;
+    box-shadow:0 -2px 20px #FF00F5, inset 0 1px  #FF00F5;
+    text-align:center;
 }
 
 footer img {
     width: 5%;
     float: left;
     position: relative;
-    left: 4vw;
+    left: 8vw;
 }
 
 footer ul {
@@ -1016,6 +1016,9 @@ display : grid;
 -ms-flex-align:center;
 text-align: center;
 }
+#an-body{
+    overflow-x: hidden;
+}
 /* #endregion Dessins-animés */
 
 
@@ -1137,7 +1140,7 @@ text-align: center;
 }
 #footer_en_bas{
     position: static;
-    margin-top: 62vh;
+    margin-top: 584px;
 }
 
 .te-accueil a div ul li {
@@ -1169,7 +1172,7 @@ text-align: center;
 
 #te-footer-sommaire {
     position: static;
-    margin-top: 12vh;
+    margin-top: 128px;
 }
 
 .te-body #te-sommaire li {
