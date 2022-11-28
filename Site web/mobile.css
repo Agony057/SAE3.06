@@ -771,6 +771,46 @@ display : grid;
 -ms-flex-align:center;
 text-align: center;
 }
+#an-flèche1{
+    height: 100px;
+    width: auto;
+    overflow: hidden;
+    }
+    #an-flèche1{
+    width: 100px;
+    transition: transform .1s;
+    }
+    
+    #an-flèche2{
+    height: 100px;
+    width: auto;
+    transform: rotate(0.5turn);
+    overflow: hidden;
+    }
+    #an-flèche2{
+    width: 100px;
+    transition: transform .1s;
+    }
+    #an-body{
+        margin-top: 10%;
+        margin-bottom: 20%;
+    }
+    #an-flèche1{
+        height: 100px;
+        width: auto;
+        overflow: hidden;
+        }
+        
+        #an-flèche2{
+        height: 100px;
+        width: auto;
+        transform: rotate(0.5turn);
+        overflow: hidden;
+        }
+#an-body{
+    margin-top: 10%;
+    margin-bottom: 20%;
+}
 
 /* #endregion Dessins-animés */
 
