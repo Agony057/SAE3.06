@@ -903,7 +903,9 @@ border-bottom-left-radius: 80px 80px;
 
 .ci_glossaire>p {
     background-color: #2adcf451;
+    margin: 1% 5%;
     padding: 2%;
+    border-radius: 40px;
 }
 
 .ci_glossaire p b {

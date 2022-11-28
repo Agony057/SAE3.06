@@ -682,13 +682,12 @@ padding: 1em 0em 1em 0em;
 
 .ci_glossaire {
     font-size: 1.4em;
-    max-width: 100%;
-
 }
 
 .ci_glossaire>p {
-    background-color: #2adcf451;
-    padding: 2%;
+    background-color: #2adcf45a;
+    padding: 1%;
+    margin: 1%;
 }
 
 .ci_glossaire p b {
