@@ -783,6 +783,26 @@ width: auto;
 #an-body{
     margin-top: 10%;
     margin-bottom: 20%;    }
+   
+    #an-flèche2{
+    height: 100px;
+    width: auto;
+    transform: rotate(0.5turn);
+
+    }
+    
+    #an-flèche1{
+        height: 100px;
+        width: auto;
+      
+        }
+        
+        #an-flèche2{
+        height: 100px;
+        width: auto;
+        transform: rotate(0.5turn);
+        overflow: hidden;
+        }
 
 /* #endregion Dessins-animés */
 
