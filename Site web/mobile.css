@@ -642,8 +642,9 @@ padding: 1em 0em 1em 0em;
 
 .ci_film_pair a, .ci_film_impair a {
     text-decoration: none;
+    font-size: 1.2em;
     color: #2ADCF4;
-    margin: 0% 27%;
+    padding: 0% 22.9%;
 }
 
 .ci_film_pair p b, .ci_film_impair p b {
@@ -656,7 +657,8 @@ padding: 1em 0em 1em 0em;
 
 .ci_film_impair {
     text-align: justify;
-    display: flow-root;
+    display: flex;
+    flex-direction: column-reverse;
     font-size: 1.5em;
     background-color: #2adcf43e;
     max-width: 100%;
@@ -690,10 +692,11 @@ padding: 1em 0em 1em 0em;
 }
 
 .ci_footer_links li {
-    display: inline-block;
-    list-style-type: none;
+    display: inline-flex;
+    /* margin: 10%; */
     width: 30%;
-    padding: 10px;
+    border: #40E5E5 solid 2px;
+    list-style-type: none;
     text-align: center;
     font-family: Montserrat;
 }
@@ -719,7 +722,7 @@ margin :auto;
 .an-text{
 padding: 10px 10px 10px 10px;
 border: 5px dotted #e6e6e6;
-margin: 20px  auto auto auto;
+margin: 0px auto;
 width: 80%;
 text-shadow: 1px 3px 0px  #a40f89;
 font-size: 10px;
