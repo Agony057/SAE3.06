@@ -921,7 +921,7 @@ border-bottom-left-radius: 80px 80px;
     color: #2ADCF4;
 }
 
-#ci_footer_accueil {
+/* #ci_footer_accueil {
     position: static;
     margin-top: 8vh;
 }
@@ -929,6 +929,20 @@ border-bottom-left-radius: 80px 80px;
 #ci_footer_sommaire {
     position: static;
     margin-top : 27vh;
+} */
+
+.ci_body_section {
+    margin-bottom: 5%;
+}
+
+#ci_footer_accueil {
+    position: static;
+    margin-bottom: 0;
+}
+
+#ci_footer_sommaire {
+    position: static;
+    margin-bottom: 0;
 }
 /* #endregion Cinéma */
 

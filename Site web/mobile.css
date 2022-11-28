@@ -534,9 +534,9 @@ padding: 1em 0em 1em 0em;
 
 #ci-ancre {
     position: fixed;
-    right: 0%;
-    bottom: 0%;
-    width: 4.2vw;
+    right: 0;
+    bottom: 0;
+    width: 0vw;
     opacity: 100%;
 }
 
@@ -572,7 +572,7 @@ padding: 1em 0em 1em 0em;
 .ci_titre_page {
     font-family: AlienSFItalic, Montserrat;
     font-weight: normal;
-    font-size: 6em;
+    font-size: 5em;
     color: #2ADCF4;
     text-align: center;
 }
@@ -673,7 +673,7 @@ padding: 1em 0em 1em 0em;
 
 #ci_gloss_link {
     color: #2ADCF4;
-    margin-left: 44%;
+    margin-left: 35%;
 }
 
 .ci_glossaire {
@@ -693,20 +693,44 @@ padding: 1em 0em 1em 0em;
 
 .ci_footer_links li {
     display: inline-flex;
-    /* margin: 10%; */
-    width: 30%;
-    border: #40E5E5 solid 2px;
+    margin-left: 10%;
     list-style-type: none;
-    text-align: center;
     font-family: Montserrat;
 }
 
-.ci_footer_links li a {
+#ci_footer_links li {
+    display: inline-flex;
+    margin-left: 4%;
+    list-style-type: none;
+    font-family: Montserrat;}
+
+.ci_footer_links li a{
     font-weight: bold;
     text-decoration: none;
     color: #2ADCF4;
 }
 
+.ci_body_section {
+    margin-bottom: 10%;
+}
+
+#ci_footer {
+    position: static;
+    margin-bottom: -12%;
+    padding-bottom: 0.5%;
+}
+
+#ci_footer_accueil {
+    position: static;
+    margin-bottom: -12%;
+    padding-bottom: 0.5%;
+}
+
+#ci_footer_sommaire {
+    position: static;
+    margin-bottom: -12%;
+    padding: 0.5%;
+}
 /* #endregion Cinéma */
 
 
