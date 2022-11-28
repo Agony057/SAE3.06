@@ -792,6 +792,22 @@ text-align: center;
         margin-top: 10%;
         margin-bottom: 20%;
     }
+    #an-flèche1{
+        height: 100px;
+        width: auto;
+        overflow: hidden;
+        }
+        
+        #an-flèche2{
+        height: 100px;
+        width: auto;
+        transform: rotate(0.5turn);
+        overflow: hidden;
+        }
+#an-body{
+    margin-top: 10%;
+    margin-bottom: 20%;
+}
 
 /* #endregion Dessins-animés */
 
