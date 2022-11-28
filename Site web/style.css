@@ -702,7 +702,7 @@ border-bottom-left-radius: 80px 80px;
 #ci-ancre {
     position: fixed;
     right: 0.4%;
-    bottom: 15%;
+    bottom: 18%;
     width: 4.2vw;
     opacity: 50%;
 }
@@ -744,7 +744,7 @@ border-bottom-left-radius: 80px 80px;
 
 .ci_sommaire_list>li {
     list-style-type: none;
-    margin-left: 10%;
+    margin: 10% 0% 5% 10%;
     font-size: 1.6em;
     font-weight: bold;
 }
@@ -760,7 +760,7 @@ border-bottom-left-radius: 80px 80px;
 
 .ci_sommaire_list>ul>li, .ci_sommaire_list>ul>li>a{
     list-style-type: none;
-    margin-left: 7%;
+    margin: 2% 0% 0% 7%;
     font-size: 1.25em;
     font-weight: bold;
     color: #2ADCF4;
@@ -919,6 +919,16 @@ border-bottom-left-radius: 80px 80px;
     font-weight: bold;
     text-decoration: none;
     color: #2ADCF4;
+}
+
+#ci_footer_accueil {
+    position: static;
+    margin-top: 8vh;
+}
+
+#ci_footer_sommaire {
+    position: static;
+    margin-top : 27vh;
 }
 /* #endregion Cinéma */
 
