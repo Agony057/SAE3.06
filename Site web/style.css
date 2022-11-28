@@ -1024,7 +1024,7 @@ text-align: center;
 #te-ancre {
     position: fixed;
     right: 0.35%;
-    bottom: 12%;
+    bottom: 14%;
     width: 4.2vw;
     opacity: 70%;
 }
@@ -1178,6 +1178,21 @@ text-align: center;
     padding-top: 30px;
     font-weight: 650;
 }
+
+.te-video-afficheurs p a {
+    text-decoration: none;
+    list-style: none;
+    color: #DB323D;
+}
+
+
+.te-video-afficheurs p a:hover {
+    color: #FFFFFF;
+} 
+
+.te-video-afficheurs p a:active {
+    color: #FF00F5;
+} 
 
 .te-body #te-sommaire a {
     text-decoration: none;
