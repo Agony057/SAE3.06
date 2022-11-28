@@ -626,6 +626,10 @@ footer p {
     list-style-type: none;
     text-decoration: none;
 }
+.re-nav li :hover{
+text-decoration:underline ;
+color: white;
+}
 .re-nav li:first-child{
 color: #FFFFFF;
 font-size: x-large;
@@ -1045,6 +1049,17 @@ text-align: center;
 #an-body{
     overflow-x: hidden;
 }
+
+#an-accueil-footer {
+    position: static;
+    margin-top: 24vh;
+}
+
+#an-page2-footer {
+    position: static;
+    margin-top: 4vh;
+}
+
 /* #endregion Dessins-animés */
 
 
