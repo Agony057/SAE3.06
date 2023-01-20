@@ -25,7 +25,7 @@ jobs:
   deploy:
     environment:
       name: github-pages
-      url: ${{ SAE3.06/Site web/Général/index.html }}
+      url: ${{ Site web/Général/index.html }}
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
