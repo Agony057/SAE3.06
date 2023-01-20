@@ -25,7 +25,7 @@ jobs:
   deploy:
     environment:
       name: github-pages
-      url: ${{ Agony057/SAE3.06/Site web/Général/index.html }}
+      url: ${{ SAE3.06/Site web/Général/index.html }}
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
